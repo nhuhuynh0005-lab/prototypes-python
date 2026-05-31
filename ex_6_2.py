@@ -10,5 +10,5 @@ while True:
         print("oops")
         break
 
-    print("too low")
+    print("too low!")
     number += 1
