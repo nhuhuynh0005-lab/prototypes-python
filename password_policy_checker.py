@@ -4,17 +4,20 @@ MIN_CHAR = 8
 
 
 def is_long_enough(p: str) -> bool:
+    """Return True if the password has at least MIN_CHAR characters."""
     return len(p) >= MIN_CHAR
 
 
-def contain_upper_case(p: str) -> bool:
+def contain_upper(p: str) -> bool:
+    """Return True if the password contains at least one upper-case letter."""
     for c in p:
         if c.isupper():
             return True
     return False
 
 
-def contain_lower_case(p: str) -> bool:
+def contain_lower(p: str) -> bool:
+    """Return True if the password contains at least one lower-case letter."""
     for c in p:
         if c.islower():
             return True
@@ -22,6 +25,7 @@ def contain_lower_case(p: str) -> bool:
 
 
 def contain_numeric(p: str) -> bool:
+    """Return True if the password contains at least one numeric character."""
     for c in p:
         if c.isnumeric():
             return True
@@ -29,11 +33,9 @@ def contain_numeric(p: str) -> bool:
 
 
 def contain_special(p: str) -> bool:
-    """
-    Returns true if the given string contains a non-alphanumeric character.
-    """
+    """Return True if the password contains at least one special (non-alphanumeric) character."""
     for c in p:
-        if not (c.isnumeric() or c.isupper() or c.islower()):
+        if not c.isalnum():
             return True
     return False
 
@@ -53,26 +55,24 @@ top_10_common_passwords = {
 
 
 def is_common(p: str) -> bool:
+    """Return True if the password is in the top 10 most common passwords."""
     return p in top_10_common_passwords
 
 
 def format_bool(v: bool) -> str:
+    """Return a checkmark emoji for True and a cross emoji for False."""
     return "✅" if v else "❌"
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("usage: python3 password_policy_checker.py <password>")
-        exit(1)
+        sys.exit(1)
 
     password = sys.argv[1]
     print(f"{format_bool(is_long_enough(password))} Has 8 or more characters")
-    print(
-        f"{format_bool(contain_lower_case(password))} Contains lower-case characters"
-    )
-    print(
-        f"{format_bool(contain_upper_case(password))} Contains upper-case characters"
-    )
+    print(f"{format_bool(contain_lower(password))} Contains lower-case characters")
+    print(f"{format_bool(contain_upper(password))} Contains upper-case characters")
     print(f"{format_bool(contain_numeric(password))} Contains numeric characters")
     print(f"{format_bool(contain_special(password))} Contains special characters")
     print(f"{format_bool(not is_common(password))} Is not common")
