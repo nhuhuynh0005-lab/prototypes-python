@@ -1,13 +1,9 @@
 version: '3'
 
 tasks:
-  password_policy_checker:
-    silent: true
-    desc: Run the password policy checker
-    cmds:
-      - python3 password_policy_checker/main.py {{.CLI_ARGS}}
-  password_policy_checker:soln:
-    silent: true
-    desc: Run the sample password policy checker
-    cmds:
-      - python3 password_policy_checker/soln/main.py {{.CLI_ARGS}}
+  setup-git:
+    desc: Add tuananhlai/prototypes-python as a Git remote for subsequent updates if it hasn't been added already.
+    cmd: git remote get-url upstream >/dev/null 2>&1 || git remote add upstream https://github.com/tuananhlai/prototypes-python.git
+  update-repo:
+    desc: Merge the latest changes from tuananhlai/prototypes-python's main branch into the current branch.
+    cmd: git pull upstream main --no-ff --no-edit
