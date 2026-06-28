@@ -16,7 +16,7 @@
 ## 出力例
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -24,7 +24,7 @@ python3 password_policy_checker.py Helloworld1!
 ✅ Contains special characters
 ✅ Is not common
 
-python3 password_policy_checker.py password
+python3 password_policy_checker/main.py password
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
@@ -42,7 +42,7 @@ python3 password_policy_checker.py password
 **出力例**
 
 ```
-python3 password_policy_checker.py hello
+python3 password_policy_checker/main.py hello
 hello
 ```
 
@@ -53,10 +53,10 @@ hello
 **出力例**
 
 ```
-python3 password_policy_checker.py longpassword
+python3 password_policy_checker/main.py longpassword
 ✅ Has 8 or more characters
 
-python3 password_policy_checker.py hi
+python3 password_policy_checker/main.py hi
 ❌ Has 8 or more characters
 ```
 
@@ -67,11 +67,11 @@ python3 password_policy_checker.py hi
 **出力例**
 
 ```
-python3 password_policy_checker.py helloworld
+python3 password_policy_checker/main.py helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 
-python3 password_policy_checker.py HELLOWORLD
+python3 password_policy_checker/main.py HELLOWORLD
 ✅ Has 8 or more characters
 ❌ Contains lower-case characters
 ```
@@ -83,12 +83,12 @@ python3 password_policy_checker.py HELLOWORLD
 **出力例**
 
 ```
-python3 password_policy_checker.py Helloworld
+python3 password_policy_checker/main.py Helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 
-python3 password_policy_checker.py helloworld
+python3 password_policy_checker/main.py helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
@@ -101,13 +101,13 @@ python3 password_policy_checker.py helloworld
 **出力例**
 
 ```
-python3 password_policy_checker.py Helloworld1
+python3 password_policy_checker/main.py Helloworld1
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 ✅ Contains numeric characters
 
-python3 password_policy_checker.py Helloworld
+python3 password_policy_checker/main.py Helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -121,14 +121,14 @@ python3 password_policy_checker.py Helloworld
 **出力例**
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 ✅ Contains numeric characters
 ✅ Contains special characters
 
-python3 password_policy_checker.py Helloworld1
+python3 password_policy_checker/main.py Helloworld1
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -140,10 +140,25 @@ python3 password_policy_checker.py Helloworld1
 
 パスワードがよくあるパスワード上位10件に含まれていないかどうかを出力します。
 
+よくあるパスワード上位10件は次のとおりです。
+
+```
+123456
+123456789
+111111
+password
+qwerty
+abc123
+12345678
+password1
+1234567
+123123
+```
+
 **出力例**
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -151,7 +166,7 @@ python3 password_policy_checker.py Helloworld1!
 ✅ Contains special characters
 ✅ Is not common
 
-python3 password_policy_checker.py password
+python3 password_policy_checker/main.py password
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
