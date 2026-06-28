@@ -16,7 +16,7 @@ Build a CLI tool that checks whether a password meets all of the following rules
 ## Sample Output
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -24,7 +24,7 @@ python3 password_policy_checker.py Helloworld1!
 ✅ Contains special characters
 ✅ Is not common
 
-python3 password_policy_checker.py password
+python3 password_policy_checker/main.py password
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
@@ -42,7 +42,7 @@ Read the password as the first command line argument and print it.
 **Sample output**
 
 ```
-python3 password_policy_checker.py hello
+python3 password_policy_checker/main.py hello
 hello
 ```
 
@@ -53,10 +53,10 @@ Print whether the password is at least 8 characters long.
 **Sample output**
 
 ```
-python3 password_policy_checker.py longpassword
+python3 password_policy_checker/main.py longpassword
 ✅ Has 8 or more characters
 
-python3 password_policy_checker.py hi
+python3 password_policy_checker/main.py hi
 ❌ Has 8 or more characters
 ```
 
@@ -67,11 +67,11 @@ Print whether the password contains at least one lower-case letter.
 **Sample output**
 
 ```
-python3 password_policy_checker.py helloworld
+python3 password_policy_checker/main.py helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 
-python3 password_policy_checker.py HELLOWORLD
+python3 password_policy_checker/main.py HELLOWORLD
 ✅ Has 8 or more characters
 ❌ Contains lower-case characters
 ```
@@ -83,12 +83,12 @@ Print whether the password contains at least one upper-case letter.
 **Sample output**
 
 ```
-python3 password_policy_checker.py Helloworld
+python3 password_policy_checker/main.py Helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 
-python3 password_policy_checker.py helloworld
+python3 password_policy_checker/main.py helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
@@ -101,13 +101,13 @@ Print whether the password contains at least one digit.
 **Sample output**
 
 ```
-python3 password_policy_checker.py Helloworld1
+python3 password_policy_checker/main.py Helloworld1
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 ✅ Contains numeric characters
 
-python3 password_policy_checker.py Helloworld
+python3 password_policy_checker/main.py Helloworld
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -121,14 +121,14 @@ Print whether the password contains at least one special character (anything tha
 **Sample output**
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
 ✅ Contains numeric characters
 ✅ Contains special characters
 
-python3 password_policy_checker.py Helloworld1
+python3 password_policy_checker/main.py Helloworld1
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -140,10 +140,25 @@ python3 password_policy_checker.py Helloworld1
 
 Print whether the password is absent from the list of 10 most common passwords.
 
+The 10 most common passwords are:
+
+```
+123456
+123456789
+111111
+password
+qwerty
+abc123
+12345678
+password1
+1234567
+123123
+```
+
 **Sample output**
 
 ```
-python3 password_policy_checker.py Helloworld1!
+python3 password_policy_checker/main.py Helloworld1!
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ✅ Contains upper-case characters
@@ -151,7 +166,7 @@ python3 password_policy_checker.py Helloworld1!
 ✅ Contains special characters
 ✅ Is not common
 
-python3 password_policy_checker.py password
+python3 password_policy_checker/main.py password
 ✅ Has 8 or more characters
 ✅ Contains lower-case characters
 ❌ Contains upper-case characters
