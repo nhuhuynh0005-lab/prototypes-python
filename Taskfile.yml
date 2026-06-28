@@ -1,0 +1,13 @@
+version: '3'
+
+tasks:
+  password_policy_checker:
+    silent: true
+    desc: Run the password policy checker
+    cmds:
+      - python3 password_policy_checker/main.py {{.CLI_ARGS}}
+  password_policy_checker:soln:
+    silent: true
+    desc: Run the sample password policy checker
+    cmds:
+      - python3 password_policy_checker/soln/main.py {{.CLI_ARGS}}
