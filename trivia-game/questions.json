@@ -1,0 +1,2522 @@
+[
+  {
+    "prompt": "What is the determinant of the 2x2 matrix [[3, 8], [4, 6]]?",
+    "choices": [
+      "-14",
+      "14",
+      "50",
+      "-50"
+    ]
+  },
+  {
+    "prompt": "What is the sum of the interior angles of a regular octagon?",
+    "choices": [
+      "1080 degrees",
+      "900 degrees",
+      "1260 degrees",
+      "720 degrees"
+    ]
+  },
+  {
+    "prompt": "The integral of 1/x dx (for x > 0) is equal to what?",
+    "choices": [
+      "ln(x) + C",
+      "1/x^2 + C",
+      "-1/x^2 + C",
+      "x ln(x) + C"
+    ]
+  },
+  {
+    "prompt": "What is the radius of convergence of the power series sum of x^n / n! (n from 0 to infinity)?",
+    "choices": [
+      "Infinite",
+      "1",
+      "0",
+      "e"
+    ]
+  },
+  {
+    "prompt": "How many distinct ways can the letters of the word 'LEVEL' be arranged?",
+    "choices": [
+      "30",
+      "60",
+      "120",
+      "20"
+    ]
+  },
+  {
+    "prompt": "If f(x) = e^(2x), what is f'(x)?",
+    "choices": [
+      "2e^(2x)",
+      "e^(2x)",
+      "e^(2x)/2",
+      "2x e^(2x-1)"
+    ]
+  },
+  {
+    "prompt": "What is the value of the infinite sum 1/2 + 1/4 + 1/8 + 1/16 + ...?",
+    "choices": [
+      "1",
+      "2",
+      "1/2",
+      "Infinite"
+    ]
+  },
+  {
+    "prompt": "In modular arithmetic, what is 7^2 mod 5?",
+    "choices": [
+      "4",
+      "2",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "prompt": "According to Euler's identity, e^(i*pi) + 1 equals what?",
+    "choices": [
+      "0",
+      "1",
+      "i",
+      "-1"
+    ]
+  },
+  {
+    "prompt": "What is the eccentricity of a circle?",
+    "choices": [
+      "0",
+      "1",
+      "Between 0 and 1",
+      "Greater than 1"
+    ]
+  },
+  {
+    "prompt": "How many elements are in the power set of a set with 4 elements?",
+    "choices": [
+      "16",
+      "8",
+      "4",
+      "24"
+    ]
+  },
+  {
+    "prompt": "What is the limit of sin(x)/x as x approaches 0?",
+    "choices": [
+      "1",
+      "0",
+      "Infinite",
+      "Undefined"
+    ]
+  },
+  {
+    "prompt": "A number that is a root of a non-zero polynomial with integer coefficients is called what?",
+    "choices": [
+      "Algebraic number",
+      "Transcendental number",
+      "Imaginary number",
+      "Irrational number"
+    ]
+  },
+  {
+    "prompt": "What is the general solution to the differential equation dy/dx = y?",
+    "choices": [
+      "y = Ce^x",
+      "y = Cx",
+      "y = x^2 + C",
+      "y = C sin(x)"
+    ]
+  },
+  {
+    "prompt": "In a standard normal distribution, approximately what percentage of data falls within one standard deviation of the mean?",
+    "choices": [
+      "68%",
+      "95%",
+      "50%",
+      "99.7%"
+    ]
+  },
+  {
+    "prompt": "The Riemann Hypothesis concerns the non-trivial zeros of which function?",
+    "choices": [
+      "The Riemann zeta function",
+      "The gamma function",
+      "The Bessel function",
+      "The error function"
+    ]
+  },
+  {
+    "prompt": "What is the value of the binomial coefficient '7 choose 2'?",
+    "choices": [
+      "21",
+      "42",
+      "14",
+      "35"
+    ]
+  },
+  {
+    "prompt": "Which of these is the contrapositive of 'If P then Q'?",
+    "choices": [
+      "If not Q then not P",
+      "If Q then P",
+      "If not P then not Q",
+      "If P then not Q"
+    ]
+  },
+  {
+    "prompt": "What is the order of the symmetric group S4 (permutations of 4 elements)?",
+    "choices": [
+      "24",
+      "16",
+      "12",
+      "48"
+    ]
+  },
+  {
+    "prompt": "What is the dot product of vectors (1, 2, 3) and (4, -5, 6)?",
+    "choices": [
+      "12",
+      "0",
+      "32",
+      "-12"
+    ]
+  },
+  {
+    "prompt": "A function f is called 'odd' if it satisfies which property?",
+    "choices": [
+      "f(-x) = -f(x)",
+      "f(-x) = f(x)",
+      "f(x) = 0",
+      "f(x+y) = f(x)f(y)"
+    ]
+  },
+  {
+    "prompt": "What is the approximate value of the golden ratio phi?",
+    "choices": [
+      "1.618",
+      "1.414",
+      "2.718",
+      "3.142"
+    ]
+  },
+  {
+    "prompt": "What is the 6th term of the sequence defined by a(n) = 2n^2 - 1, starting at n = 1?",
+    "choices": [
+      "71",
+      "72",
+      "49",
+      "35"
+    ]
+  },
+  {
+    "prompt": "In graph theory, a graph in which every pair of distinct vertices is connected by an edge is called what?",
+    "choices": [
+      "Complete graph",
+      "Bipartite graph",
+      "Planar graph",
+      "Tree"
+    ]
+  },
+  {
+    "prompt": "Godel's incompleteness theorems primarily concern the limitations of what?",
+    "choices": [
+      "Formal axiomatic systems",
+      "Numerical computation",
+      "Geometric constructions",
+      "Probability theory"
+    ]
+  },
+  {
+    "prompt": "What is the approximate value of the elementary charge of an electron?",
+    "choices": [
+      "1.6 x 10^-19 C",
+      "9.1 x 10^-31 C",
+      "6.6 x 10^-34 C",
+      "3.0 x 10^8 C"
+    ]
+  },
+  {
+    "prompt": "Which of Maxwell's equations states that there are no magnetic monopoles?",
+    "choices": [
+      "The divergence of B is zero",
+      "The divergence of E equals charge density over epsilon",
+      "Faraday's law",
+      "Ampere's law"
+    ]
+  },
+  {
+    "prompt": "In thermodynamics, which quantity always increases in an isolated system?",
+    "choices": [
+      "Entropy",
+      "Enthalpy",
+      "Gibbs free energy",
+      "Internal pressure"
+    ]
+  },
+  {
+    "prompt": "The Heisenberg uncertainty principle sets a lower bound on the product of the uncertainties in which pair of quantities?",
+    "choices": [
+      "Position and momentum",
+      "Energy and charge",
+      "Mass and velocity",
+      "Force and distance"
+    ]
+  },
+  {
+    "prompt": "What phenomenon describes the apparent change in frequency of a wave due to relative motion between source and observer?",
+    "choices": [
+      "Doppler effect",
+      "Photoelectric effect",
+      "Compton scattering",
+      "Zeeman effect"
+    ]
+  },
+  {
+    "prompt": "A satellite in geostationary orbit has an orbital period of approximately how long?",
+    "choices": [
+      "24 hours",
+      "90 minutes",
+      "1 hour",
+      "12 hours"
+    ]
+  },
+  {
+    "prompt": "The photoelectric effect, explained by Einstein, demonstrated that light behaves as what?",
+    "choices": [
+      "Discrete quanta (photons)",
+      "Only a continuous wave",
+      "A longitudinal wave",
+      "A magnetic field alone"
+    ]
+  },
+  {
+    "prompt": "What is the name of the effect where a current-carrying conductor in a magnetic field experiences a force?",
+    "choices": [
+      "The Lorentz force (motor effect)",
+      "The Hall effect",
+      "The Meissner effect",
+      "The Seebeck effect"
+    ]
+  },
+  {
+    "prompt": "In special relativity, what happens to the length of a moving object as measured by a stationary observer?",
+    "choices": [
+      "It contracts along the direction of motion",
+      "It expands",
+      "It stays the same",
+      "It becomes zero"
+    ]
+  },
+  {
+    "prompt": "The Standard Model of particle physics classifies quarks and leptons as which type of particle?",
+    "choices": [
+      "Fermions",
+      "Bosons",
+      "Hadrons",
+      "Mesons"
+    ]
+  },
+  {
+    "prompt": "What is the escape velocity from Earth's surface, approximately?",
+    "choices": [
+      "11.2 km/s",
+      "7.9 km/s",
+      "3.0 km/s",
+      "29.8 km/s"
+    ]
+  },
+  {
+    "prompt": "Which law relates the pressure and volume of an ideal gas at constant temperature?",
+    "choices": [
+      "Boyle's law",
+      "Charles's law",
+      "Gay-Lussac's law",
+      "Avogadro's law"
+    ]
+  },
+  {
+    "prompt": "A blackbody's total emitted power per unit area is proportional to the fourth power of its temperature. This is which law?",
+    "choices": [
+      "Stefan-Boltzmann law",
+      "Wien's displacement law",
+      "Planck's law",
+      "Kirchhoff's law"
+    ]
+  },
+  {
+    "prompt": "What is the quantized unit of angular momentum in the Bohr model related to?",
+    "choices": [
+      "The reduced Planck constant",
+      "The Boltzmann constant",
+      "The gravitational constant",
+      "The gas constant"
+    ]
+  },
+  {
+    "prompt": "In an RLC circuit, resonance occurs when which two reactances are equal?",
+    "choices": [
+      "Inductive and capacitive reactance",
+      "Resistance and inductance",
+      "Resistance and capacitance",
+      "Voltage and current"
+    ]
+  },
+  {
+    "prompt": "Superconductors expel magnetic fields from their interior below a critical temperature. This is known as what?",
+    "choices": [
+      "The Meissner effect",
+      "The Josephson effect",
+      "The Hall effect",
+      "The Casimir effect"
+    ]
+  },
+  {
+    "prompt": "What is the term for the minimum energy required to remove an electron from a metal surface?",
+    "choices": [
+      "Work function",
+      "Ionization energy",
+      "Binding energy",
+      "Fermi energy"
+    ]
+  },
+  {
+    "prompt": "Which fundamental interaction is responsible for radioactive beta decay?",
+    "choices": [
+      "The weak nuclear force",
+      "The strong nuclear force",
+      "Gravity",
+      "The electromagnetic force"
+    ]
+  },
+  {
+    "prompt": "The Chandrasekhar limit describes the maximum mass of which type of stellar remnant?",
+    "choices": [
+      "A white dwarf",
+      "A neutron star",
+      "A black hole",
+      "A red giant"
+    ]
+  },
+  {
+    "prompt": "What is the name for the phenomenon where two coherent light waves combine to produce a pattern of bright and dark fringes?",
+    "choices": [
+      "Interference",
+      "Refraction",
+      "Dispersion",
+      "Attenuation"
+    ]
+  },
+  {
+    "prompt": "The moment of inertia of a solid sphere about its central axis is which fraction of MR^2?",
+    "choices": [
+      "2/5",
+      "1/2",
+      "2/3",
+      "1"
+    ]
+  },
+  {
+    "prompt": "In quantum mechanics, the Pauli exclusion principle states that no two identical fermions can occupy the same what?",
+    "choices": [
+      "Quantum state",
+      "Energy band",
+      "Orbital radius",
+      "Spin axis"
+    ]
+  },
+  {
+    "prompt": "What device converts mechanical energy into electrical energy using electromagnetic induction?",
+    "choices": [
+      "Generator",
+      "Transformer",
+      "Capacitor",
+      "Rectifier"
+    ]
+  },
+  {
+    "prompt": "The half-life of a radioactive isotope is the time for what to occur?",
+    "choices": [
+      "Half of the nuclei to decay",
+      "The isotope to double",
+      "All nuclei to decay",
+      "The mass to triple"
+    ]
+  },
+  {
+    "prompt": "Cherenkov radiation is emitted when a charged particle travels through a medium faster than what?",
+    "choices": [
+      "The speed of light in that medium",
+      "The speed of sound",
+      "Its own thermal velocity",
+      "The speed of light in vacuum"
+    ]
+  },
+  {
+    "prompt": "What is the hybridization of the carbon atoms in a benzene ring?",
+    "choices": [
+      "sp2",
+      "sp3",
+      "sp",
+      "sp3d"
+    ]
+  },
+  {
+    "prompt": "According to Le Chatelier's principle, increasing pressure on an equilibrium shifts it toward the side with what?",
+    "choices": [
+      "Fewer moles of gas",
+      "More moles of gas",
+      "Higher temperature",
+      "Lower activation energy"
+    ]
+  },
+  {
+    "prompt": "What is the oxidation state of manganese in the permanganate ion (MnO4-)?",
+    "choices": [
+      "+7",
+      "+4",
+      "+2",
+      "+6"
+    ]
+  },
+  {
+    "prompt": "Which quantum number determines the shape of an atomic orbital?",
+    "choices": [
+      "The azimuthal (angular momentum) quantum number",
+      "The principal quantum number",
+      "The magnetic quantum number",
+      "The spin quantum number"
+    ]
+  },
+  {
+    "prompt": "What type of isomerism do molecules with the same formula but non-superimposable mirror images exhibit?",
+    "choices": [
+      "Enantiomerism",
+      "Structural isomerism",
+      "Cis-trans isomerism",
+      "Tautomerism"
+    ]
+  },
+  {
+    "prompt": "In the reaction 2H2 + O2 -> 2H2O, what is the limiting reagent if you start with 4 mol H2 and 1 mol O2?",
+    "choices": [
+      "Oxygen",
+      "Hydrogen",
+      "Water",
+      "Neither is limiting"
+    ]
+  },
+  {
+    "prompt": "What is the approximate value of Avogadro's number?",
+    "choices": [
+      "6.022 x 10^23",
+      "1.602 x 10^-19",
+      "9.11 x 10^-31",
+      "3.00 x 10^8"
+    ]
+  },
+  {
+    "prompt": "Which functional group is characteristic of a carboxylic acid?",
+    "choices": [
+      "-COOH",
+      "-OH",
+      "-CHO",
+      "-NH2"
+    ]
+  },
+  {
+    "prompt": "A buffer solution is typically made from a weak acid and what?",
+    "choices": [
+      "Its conjugate base",
+      "A strong base",
+      "A strong acid",
+      "A noble gas"
+    ]
+  },
+  {
+    "prompt": "In the electrochemical series, a more negative standard reduction potential indicates a species that is a stronger what?",
+    "choices": [
+      "Reducing agent",
+      "Oxidizing agent",
+      "Acid",
+      "Catalyst"
+    ]
+  },
+  {
+    "prompt": "What is the name of the process by which alkenes react with hydrogen to form alkanes?",
+    "choices": [
+      "Hydrogenation",
+      "Halogenation",
+      "Polymerization",
+      "Esterification"
+    ]
+  },
+  {
+    "prompt": "Which law states that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules?",
+    "choices": [
+      "Avogadro's law",
+      "Boyle's law",
+      "Dalton's law",
+      "Graham's law"
+    ]
+  },
+  {
+    "prompt": "What is the coordination number of the central atom in an octahedral complex?",
+    "choices": [
+      "6",
+      "4",
+      "8",
+      "2"
+    ]
+  },
+  {
+    "prompt": "What is the conjugate base of the bicarbonate ion (HCO3-)?",
+    "choices": [
+      "Carbonate ion (CO3 2-)",
+      "Carbonic acid (H2CO3)",
+      "Carbon dioxide",
+      "Hydroxide ion"
+    ]
+  },
+  {
+    "prompt": "The reaction rate constant's dependence on temperature is described by which equation?",
+    "choices": [
+      "The Arrhenius equation",
+      "The Nernst equation",
+      "The Henderson-Hasselbalch equation",
+      "The van der Waals equation"
+    ]
+  },
+  {
+    "prompt": "Which element has the highest first ionization energy?",
+    "choices": [
+      "Helium",
+      "Fluorine",
+      "Neon",
+      "Hydrogen"
+    ]
+  },
+  {
+    "prompt": "What is the molecular geometry of a molecule with four bonding pairs and no lone pairs around the central atom?",
+    "choices": [
+      "Tetrahedral",
+      "Trigonal planar",
+      "Octahedral",
+      "Bent"
+    ]
+  },
+  {
+    "prompt": "In organic chemistry, what does the Markovnikov rule predict?",
+    "choices": [
+      "Where H and X add across an unsymmetrical alkene",
+      "The color of a compound",
+      "The boiling point of alcohols",
+      "The rate of an SN2 reaction"
+    ]
+  },
+  {
+    "prompt": "The lanthanide contraction is primarily caused by the poor shielding effect of which electrons?",
+    "choices": [
+      "4f electrons",
+      "3d electrons",
+      "6s electrons",
+      "5p electrons"
+    ]
+  },
+  {
+    "prompt": "What is the pH of a 0.01 M solution of a strong monoprotic acid like HCl?",
+    "choices": [
+      "2",
+      "1",
+      "12",
+      "7"
+    ]
+  },
+  {
+    "prompt": "Which type of chemical reaction involves the transfer of electrons between species?",
+    "choices": [
+      "Redox reaction",
+      "Precipitation reaction",
+      "Acid-base neutralization",
+      "Combustion only"
+    ]
+  },
+  {
+    "prompt": "What is the name of the effect where the rate of an enzyme-catalyzed reaction plateaus at high substrate concentration?",
+    "choices": [
+      "Saturation (described by Michaelis-Menten kinetics)",
+      "Denaturation",
+      "The salting-out effect",
+      "Allosteric inhibition"
+    ]
+  },
+  {
+    "prompt": "Diamond and graphite are both made of carbon. This phenomenon of an element existing in different forms is called what?",
+    "choices": [
+      "Allotropy",
+      "Isotopy",
+      "Polymorphism of compounds",
+      "Isomerism"
+    ]
+  },
+  {
+    "prompt": "What is the common name of the compound with formula CH3COOH?",
+    "choices": [
+      "Acetic acid",
+      "Formic acid",
+      "Ethanol",
+      "Acetone"
+    ]
+  },
+  {
+    "prompt": "In crystal field theory, which ligand arrangement typically produces the largest splitting of d-orbitals?",
+    "choices": [
+      "Strong-field ligands like CN-",
+      "Weak-field ligands like I-",
+      "Water molecules only",
+      "Halide ions only"
+    ]
+  },
+  {
+    "prompt": "In Japanese grammar, which particle marks the direct object of a verb?",
+    "choices": [
+      "wo (を)",
+      "wa (は)",
+      "ga (が)",
+      "ni (に)"
+    ]
+  },
+  {
+    "prompt": "What is the plain (dictionary) form of the verb meaning 'to eat'?",
+    "choices": [
+      "taberu",
+      "tabemasu",
+      "tabeta",
+      "tabete"
+    ]
+  },
+  {
+    "prompt": "Which counter is used for counting flat, thin objects like sheets of paper?",
+    "choices": [
+      "mai (枚)",
+      "hon (本)",
+      "hiki (匹)",
+      "satsu (冊)"
+    ]
+  },
+  {
+    "prompt": "The te-form of the verb 'iku' (to go) is which of the following?",
+    "choices": [
+      "itte",
+      "ikite",
+      "iite",
+      "ikute"
+    ]
+  },
+  {
+    "prompt": "What does the grammatical structure 'verb + tai' express?",
+    "choices": [
+      "Wanting to do something",
+      "Being able to do something",
+      "Having done something",
+      "Being asked to do something"
+    ]
+  },
+  {
+    "prompt": "Which of these words is a keigo (honorific) form of 'to say'?",
+    "choices": [
+      "ossharu",
+      "iu",
+      "hanasu",
+      "kataru"
+    ]
+  },
+  {
+    "prompt": "The kanji 生 has many readings. Which reading appears in the word 'sensei' (teacher)?",
+    "choices": [
+      "sei",
+      "nama",
+      "i",
+      "u"
+    ]
+  },
+  {
+    "prompt": "What is the polite negative past form of the verb 'nomu' (to drink)?",
+    "choices": [
+      "nomimasen deshita",
+      "nomimasen",
+      "nomanai",
+      "nomimashita"
+    ]
+  },
+  {
+    "prompt": "Which particle is used to indicate a means or method, such as traveling 'by' train?",
+    "choices": [
+      "de (で)",
+      "ni (に)",
+      "wo (を)",
+      "to (と)"
+    ]
+  },
+  {
+    "prompt": "The word 'kotoba' (言葉) meaning 'word/language' uses which type of number reading combination?",
+    "choices": [
+      "Kun'yomi (native reading)",
+      "On'yomi (Chinese reading)",
+      "Purely katakana",
+      "Purely romaji"
+    ]
+  },
+  {
+    "prompt": "What does the expression 'itterasshai' typically mean?",
+    "choices": [
+      "Said to someone leaving home ('go and come back')",
+      "Welcome home",
+      "Bon appetit",
+      "Congratulations"
+    ]
+  },
+  {
+    "prompt": "Which adjective type ends in 'i' and conjugates directly, like 'takai' (expensive)?",
+    "choices": [
+      "i-adjectives",
+      "na-adjectives",
+      "no-adjectives",
+      "verb-adjectives"
+    ]
+  },
+  {
+    "prompt": "The counter 'nin' (人) is used for people, but which two numbers use irregular readings with it?",
+    "choices": [
+      "One (hitori) and two (futari)",
+      "Three and four",
+      "Five and six",
+      "Ten and twenty"
+    ]
+  },
+  {
+    "prompt": "What is the meaning of the grammatical form 'verb + nakereba naranai'?",
+    "choices": [
+      "Must do something",
+      "Should not do something",
+      "Might do something",
+      "Want to do something"
+    ]
+  },
+  {
+    "prompt": "Which word means 'therefore' or 'so' as a conjunction?",
+    "choices": [
+      "dakara",
+      "demo",
+      "shikashi",
+      "keredomo"
+    ]
+  },
+  {
+    "prompt": "In the sentence 'Watashi wa hon wo yonda', what tense and formality is 'yonda'?",
+    "choices": [
+      "Plain past tense",
+      "Polite present tense",
+      "Plain present tense",
+      "Polite past tense"
+    ]
+  },
+  {
+    "prompt": "What does the suffix '-tachi' indicate when added to a noun like 'watashi'?",
+    "choices": [
+      "Plurality (a group)",
+      "Politeness",
+      "Past tense",
+      "A question"
+    ]
+  },
+  {
+    "prompt": "Which of these means 'difficult'?",
+    "choices": [
+      "muzukashii",
+      "yasashii",
+      "atarashii",
+      "furui"
+    ]
+  },
+  {
+    "prompt": "The passive form of 'taberu' (to eat) is which of the following?",
+    "choices": [
+      "taberareru",
+      "tabesaseru",
+      "tabereba",
+      "tabeyou"
+    ]
+  },
+  {
+    "prompt": "What is the word for 'the day after tomorrow'?",
+    "choices": [
+      "asatte",
+      "ototoi",
+      "ashita",
+      "kyou"
+    ]
+  },
+  {
+    "prompt": "Which particle turns a statement into a question at the end of a sentence?",
+    "choices": [
+      "ka (か)",
+      "ne (ね)",
+      "yo (よ)",
+      "wa (わ)"
+    ]
+  },
+  {
+    "prompt": "The verb 'kuru' (to come) becomes which form in its causative conjugation?",
+    "choices": [
+      "kosaseru",
+      "korareru",
+      "kite",
+      "koyou"
+    ]
+  },
+  {
+    "prompt": "What does 'zenzen' typically emphasize when used with a negative verb?",
+    "choices": [
+      "Not at all",
+      "Always",
+      "Sometimes",
+      "Almost"
+    ]
+  },
+  {
+    "prompt": "Which word is the humble (kenjougo) form of 'to do'?",
+    "choices": [
+      "itasu",
+      "nasaru",
+      "suru",
+      "yaru"
+    ]
+  },
+  {
+    "prompt": "The grammatical pattern 'X wa Y hodo Z nai' is used to express what?",
+    "choices": [
+      "X is not as Z as Y",
+      "X is more Z than Y",
+      "X and Y are equally Z",
+      "X is the most Z"
+    ]
+  },
+  {
+    "prompt": "What is the average-case time complexity of quicksort?",
+    "choices": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ]
+  },
+  {
+    "prompt": "In the OSI model, which layer is responsible for routing and IP addressing?",
+    "choices": [
+      "Network layer",
+      "Transport layer",
+      "Data link layer",
+      "Session layer"
+    ]
+  },
+  {
+    "prompt": "Which data structure is typically used to implement a priority queue efficiently?",
+    "choices": [
+      "Heap",
+      "Stack",
+      "Linked list",
+      "Hash table"
+    ]
+  },
+  {
+    "prompt": "The problem of determining whether a program halts on a given input is known to be what?",
+    "choices": [
+      "Undecidable",
+      "NP-complete",
+      "Solvable in polynomial time",
+      "Context-free"
+    ]
+  },
+  {
+    "prompt": "In a hash table, what is the term for two keys mapping to the same index?",
+    "choices": [
+      "Collision",
+      "Rehashing",
+      "Chaining",
+      "Overflow"
+    ]
+  },
+  {
+    "prompt": "Which SQL command is used to remove a table's rows while keeping its structure, and cannot be rolled back in many systems?",
+    "choices": [
+      "TRUNCATE",
+      "DELETE",
+      "DROP",
+      "ALTER"
+    ]
+  },
+  {
+    "prompt": "The traveling salesman problem (decision version) belongs to which complexity class?",
+    "choices": [
+      "NP-complete",
+      "P",
+      "Undecidable",
+      "Constant time"
+    ]
+  },
+  {
+    "prompt": "In object-oriented programming, what principle allows a subclass to provide a specific implementation of a method already defined in its superclass?",
+    "choices": [
+      "Overriding",
+      "Overloading",
+      "Encapsulation",
+      "Abstraction"
+    ]
+  },
+  {
+    "prompt": "What does the ACID acronym in database transactions stand for?",
+    "choices": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Access, Control, Integrity, Data",
+      "Atomic, Concurrent, Isolated, Distributed",
+      "Availability, Consistency, Integrity, Durability"
+    ]
+  },
+  {
+    "prompt": "In a balanced binary search tree like a red-black tree, what is the worst-case time complexity for search?",
+    "choices": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n log n)"
+    ]
+  },
+  {
+    "prompt": "Which TCP mechanism prevents a fast sender from overwhelming a slow receiver?",
+    "choices": [
+      "Flow control",
+      "Congestion collapse",
+      "Checksumming",
+      "Fragmentation"
+    ]
+  },
+  {
+    "prompt": "What is a deadlock in concurrent programming?",
+    "choices": [
+      "Processes waiting on each other in a cycle, none able to proceed",
+      "A process running too fast",
+      "A memory leak",
+      "An infinite loop in a single thread"
+    ]
+  },
+  {
+    "prompt": "Which page replacement algorithm is theoretically optimal but not implementable in practice?",
+    "choices": [
+      "Belady's optimal (OPT) algorithm",
+      "First-In-First-Out (FIFO)",
+      "Least Recently Used (LRU)",
+      "Clock (second chance)"
+    ]
+  },
+  {
+    "prompt": "In Git, which command combines multiple commits into a single commit interactively?",
+    "choices": [
+      "rebase (interactive)",
+      "merge",
+      "cherry-pick",
+      "clone"
+    ]
+  },
+  {
+    "prompt": "What is the primary purpose of a semaphore in operating systems?",
+    "choices": [
+      "Controlling access to shared resources",
+      "Compressing files",
+      "Encrypting data",
+      "Rendering graphics"
+    ]
+  },
+  {
+    "prompt": "The CAP theorem states that a distributed system cannot simultaneously guarantee all three of which properties?",
+    "choices": [
+      "Consistency, Availability, Partition tolerance",
+      "Concurrency, Atomicity, Persistence",
+      "Caching, Authentication, Performance",
+      "Correctness, Accuracy, Precision"
+    ]
+  },
+  {
+    "prompt": "Which regular expression quantifier matches zero or more of the preceding element?",
+    "choices": [
+      "*",
+      "+",
+      "?",
+      "{1}"
+    ]
+  },
+  {
+    "prompt": "In machine learning, what problem occurs when a model performs well on training data but poorly on unseen data?",
+    "choices": [
+      "Overfitting",
+      "Underfitting",
+      "Regularization",
+      "Normalization"
+    ]
+  },
+  {
+    "prompt": "What is the space complexity of the standard recursive implementation of the merge sort algorithm?",
+    "choices": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ]
+  },
+  {
+    "prompt": "Which HTTP status code indicates that a resource was not found?",
+    "choices": [
+      "404",
+      "200",
+      "500",
+      "301"
+    ]
+  },
+  {
+    "prompt": "In cryptography, which type of encryption uses a pair of public and private keys?",
+    "choices": [
+      "Asymmetric encryption",
+      "Symmetric encryption",
+      "Hashing",
+      "Steganography"
+    ]
+  },
+  {
+    "prompt": "A grammar that can be parsed by looking ahead only one token from left to right is called what?",
+    "choices": [
+      "LL(1)",
+      "LR(0) only",
+      "Context-sensitive",
+      "Ambiguous"
+    ]
+  },
+  {
+    "prompt": "What is the term for a function that calls itself?",
+    "choices": [
+      "Recursion",
+      "Iteration",
+      "Delegation",
+      "Memoization"
+    ]
+  },
+  {
+    "prompt": "In Python, what does the Global Interpreter Lock (GIL) primarily limit?",
+    "choices": [
+      "True parallel execution of threads for CPU-bound tasks",
+      "Memory allocation",
+      "File I/O speed",
+      "Network bandwidth"
+    ]
+  },
+  {
+    "prompt": "Dijkstra's shortest path algorithm fails to produce correct results when a graph contains what?",
+    "choices": [
+      "Negative edge weights",
+      "Cycles of any kind",
+      "More than 100 nodes",
+      "Undirected edges"
+    ]
+  },
+  {
+    "prompt": "Which K-pop group's fandom is officially named 'ARMY'?",
+    "choices": [
+      "BTS",
+      "BLACKPINK",
+      "EXO",
+      "SEVENTEEN"
+    ]
+  },
+  {
+    "prompt": "The Beatles song 'Yesterday' was primarily written by which member?",
+    "choices": [
+      "Paul McCartney",
+      "John Lennon",
+      "George Harrison",
+      "Ringo Starr"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese singer represented a viral remix trend with 'See Tinh', a song that charted across Asia?",
+    "choices": [
+      "Hoang Thuy Linh",
+      "My Tam",
+      "Toc Tien",
+      "Amee"
+    ]
+  },
+  {
+    "prompt": "Which US artist holds the record featured in the album 'Thriller', the best-selling album of all time?",
+    "choices": [
+      "Michael Jackson",
+      "Whitney Houston",
+      "Prince",
+      "Madonna"
+    ]
+  },
+  {
+    "prompt": "Son Tung M-TP faced controversy over the alleged similarity of 'Chac Ai Do Se Ve' to a song by which country's music?",
+    "choices": [
+      "South Korea",
+      "Japan",
+      "China",
+      "Thailand"
+    ]
+  },
+  {
+    "prompt": "Which Japanese idol group, once holding a Guinness record for largest pop group, is associated with Akihabara?",
+    "choices": [
+      "AKB48",
+      "Morning Musume",
+      "Perfume",
+      "Arashi"
+    ]
+  },
+  {
+    "prompt": "BLACKPINK's 2020 collaboration 'Ice Cream' featured which Western pop star?",
+    "choices": [
+      "Selena Gomez",
+      "Lady Gaga",
+      "Dua Lipa",
+      "Cardi B"
+    ]
+  },
+  {
+    "prompt": "Which British band, formed in Manchester, released the 1990s anthem 'Wonderwall'?",
+    "choices": [
+      "Oasis",
+      "Blur",
+      "The Verve",
+      "Radiohead"
+    ]
+  },
+  {
+    "prompt": "Which two rappers served as the earliest well-known judges/coaches associated with popularizing Vietnamese hip-hop competition shows around 2020?",
+    "choices": [
+      "Karik and Wowy",
+      "Son Tung and Jack",
+      "Erik and Duc Phuc",
+      "Noo Phuoc Thinh and Binz only"
+    ]
+  },
+  {
+    "prompt": "Which US singer released the critically acclaimed album 'Lemonade' in 2016?",
+    "choices": [
+      "Beyonce",
+      "Rihanna",
+      "Alicia Keys",
+      "Nicki Minaj"
+    ]
+  },
+  {
+    "prompt": "Which Japanese singer-songwriter, known internationally, sang 'First Love' and later theme songs for Kingdom Hearts?",
+    "choices": [
+      "Utada Hikaru",
+      "Ayumi Hamasaki",
+      "Namie Amuro",
+      "YUI"
+    ]
+  },
+  {
+    "prompt": "The K-pop group that debuted with 'Chewing Gum' and includes members Irene and Wendy is which group?",
+    "choices": [
+      "Red Velvet",
+      "TWICE",
+      "GFriend",
+      "Mamamoo"
+    ]
+  },
+  {
+    "prompt": "Which British solo artist released 'Shape of You' from the album 'Divide'?",
+    "choices": [
+      "Ed Sheeran",
+      "Sam Smith",
+      "Harry Styles",
+      "Lewis Capaldi"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese diva is known for hits spanning decades and is frequently paired in rankings with My Tam as a top female vocalist?",
+    "choices": [
+      "Ho Ngoc Ha",
+      "Bich Phuong",
+      "Chi Pu",
+      "Huong Tram"
+    ]
+  },
+  {
+    "prompt": "The song 'Gangnam Style' by PSY was the first YouTube video to reach how many views?",
+    "choices": [
+      "One billion",
+      "One million",
+      "One hundred million",
+      "Ten billion"
+    ]
+  },
+  {
+    "prompt": "Which US rapper released the album 'good kid, m.A.A.d city' and later won a Pulitzer Prize?",
+    "choices": [
+      "Kendrick Lamar",
+      "Drake",
+      "J. Cole",
+      "Travis Scott"
+    ]
+  },
+  {
+    "prompt": "Which Japanese rock band performed 'Gurenge', the opening theme of the anime Demon Slayer?",
+    "choices": [
+      "LiSA",
+      "Aimer",
+      "ONE OK ROCK",
+      "RADWIMPS"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese artist's real name is Nguyen Thanh Tung, better known by a stage name inspired by 'M-TP'?",
+    "choices": [
+      "Son Tung M-TP",
+      "Jack J97",
+      "Erik",
+      "Noo Phuoc Thinh"
+    ]
+  },
+  {
+    "prompt": "Which British band's album 'The Dark Side of the Moon' spent a record number of weeks on the charts?",
+    "choices": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "The Rolling Stones",
+      "Genesis"
+    ]
+  },
+  {
+    "prompt": "Which US pop star's debut single was 'Baby' and rose to fame via YouTube in 2009-2010?",
+    "choices": [
+      "Justin Bieber",
+      "Shawn Mendes",
+      "Charlie Puth",
+      "Austin Mahone"
+    ]
+  },
+  {
+    "prompt": "The K-pop 'four-generation' girl group known for the virtual/AI concept and songs like 'Next Level' is which group?",
+    "choices": [
+      "aespa",
+      "ITZY",
+      "IVE",
+      "NewJeans"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese singer rose to fame from the group behind 'Hong Nhan' and 'Bac Phan' before going solo as J97?",
+    "choices": [
+      "Jack (Trinh Tran Phuong Tuan)",
+      "K-ICM",
+      "Duc Phuc",
+      "Erik"
+    ]
+  },
+  {
+    "prompt": "Which British singer released '21' and 'Someone Like You', becoming a global sensation in 2011?",
+    "choices": [
+      "Adele",
+      "Amy Winehouse",
+      "Duffy",
+      "Jessie J"
+    ]
+  },
+  {
+    "prompt": "The Japanese band RADWIMPS collaborated with which vocalist on some tracks of the 'Weathering With You' soundtrack?",
+    "choices": [
+      "Toko Miura",
+      "LiSA",
+      "Aimer",
+      "YUI"
+    ]
+  },
+  {
+    "prompt": "Which US band, fronted by Chris Martin, released 'Viva la Vida'?",
+    "choices": [
+      "Coldplay (British band)",
+      "Maroon 5",
+      "OneRepublic",
+      "Imagine Dragons"
+    ]
+  },
+  {
+    "prompt": "The Tran Dynasty defeated three Mongol invasions during which century?",
+    "choices": [
+      "13th century",
+      "11th century",
+      "15th century",
+      "18th century"
+    ]
+  },
+  {
+    "prompt": "The famous poem 'Nam Quoc Son Ha', considered Vietnam's first declaration of independence, is attributed to which general?",
+    "choices": [
+      "Ly Thuong Kiet",
+      "Tran Hung Dao",
+      "Le Loi",
+      "Ngo Quyen"
+    ]
+  },
+  {
+    "prompt": "During the Le Dynasty, the promulgation of the Hong Duc legal code occurred under which emperor?",
+    "choices": [
+      "Le Thanh Tong",
+      "Le Loi (Le Thai To)",
+      "Le Nhan Tong",
+      "Le Hien Tong"
+    ]
+  },
+  {
+    "prompt": "The Trinh-Nguyen conflict divided Vietnam for over a century. The Nguyen lords controlled which part of the country?",
+    "choices": [
+      "The South",
+      "The North",
+      "The far northwest",
+      "The central highlands only"
+    ]
+  },
+  {
+    "prompt": "Which battle in 1789 saw Emperor Quang Trung's forces rout the invading Qing army near Hanoi?",
+    "choices": [
+      "Battle of Ngoc Hoi-Dong Da",
+      "Battle of Bach Dang",
+      "Battle of Chi Lang",
+      "Battle of Rach Gam-Xoai Mut"
+    ]
+  },
+  {
+    "prompt": "The Nguyen Dynasty emperor who resisted French rule and was exiled to Algeria was which of the following?",
+    "choices": [
+      "Ham Nghi",
+      "Tu Duc",
+      "Dong Khanh",
+      "Khai Dinh"
+    ]
+  },
+  {
+    "prompt": "The Cao Dai religion, a syncretic faith, was founded in Vietnam during which period?",
+    "choices": [
+      "The 1920s (French colonial era)",
+      "The 15th century",
+      "The Tran Dynasty",
+      "The 1970s"
+    ]
+  },
+  {
+    "prompt": "Who was the influential communist party leader of North Vietnam known as the party's General Secretary during much of the Vietnam War?",
+    "choices": [
+      "Le Duan",
+      "Ho Chi Minh",
+      "Pham Van Dong",
+      "Vo Nguyen Giap"
+    ]
+  },
+  {
+    "prompt": "The ancient Dong Son culture of Vietnam is most famous for producing what type of artifact?",
+    "choices": [
+      "Bronze drums",
+      "Jade burial suits",
+      "Porcelain vases",
+      "Iron swords"
+    ]
+  },
+  {
+    "prompt": "The 1968 offensive during the Vietnam War, launched during the lunar new year, is known as what?",
+    "choices": [
+      "The Tet Offensive",
+      "The Easter Offensive",
+      "The Ia Drang campaign",
+      "Operation Rolling Thunder"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese scholar-official and poet wrote the epic poem 'The Tale of Kieu' (Truyen Kieu)?",
+    "choices": [
+      "Nguyen Du",
+      "Nguyen Trai",
+      "Ho Xuan Huong",
+      "Cao Ba Quat"
+    ]
+  },
+  {
+    "prompt": "Nguyen Trai, a key strategist for Le Loi, was later executed in connection with which infamous case?",
+    "choices": [
+      "The Le Chi Vien (Le Chi Garden) affair",
+      "The Tay Son uprising",
+      "The Trinh-Nguyen war",
+      "The Ho Dynasty coup"
+    ]
+  },
+  {
+    "prompt": "The short-lived Ho Dynasty (1400-1407) is notable for introducing what economic innovation?",
+    "choices": [
+      "Paper currency",
+      "The gold standard",
+      "A stock exchange",
+      "Silk-based coinage"
+    ]
+  },
+  {
+    "prompt": "The kingdom of Champa, long a rival of the Vietnamese states, was finally absorbed largely during the southward expansion known as what?",
+    "choices": [
+      "Nam Tien",
+      "Bac Thuoc",
+      "Doi Moi",
+      "Cai Luong"
+    ]
+  },
+  {
+    "prompt": "Emperor Minh Mang of the Nguyen Dynasty is known for centralizing administration and adopting which foreign policy toward Westerners?",
+    "choices": [
+      "Isolationism and suppression of Christianity",
+      "Free trade with all European powers",
+      "A formal alliance with France",
+      "Adoption of Christianity as state religion"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese revolutionary Phan Boi Chau led which early 20th-century movement encouraging students to study abroad, particularly in Japan?",
+    "choices": [
+      "The Dong Du (Go East) movement",
+      "The Doi Moi movement",
+      "The Can Vuong movement",
+      "The Viet Minh"
+    ]
+  },
+  {
+    "prompt": "In what year did Ngo Quyen's victory at Bach Dang end nearly a thousand years of Chinese domination?",
+    "choices": [
+      "938 AD",
+      "1288 AD",
+      "1428 AD",
+      "40 AD"
+    ]
+  },
+  {
+    "prompt": "Tran Hung Dao's decisive 1288 victory over the Mongols reused a tactic from Ngo Quyen involving what?",
+    "choices": [
+      "Iron-tipped stakes planted in the Bach Dang River",
+      "Fire ships on the open sea",
+      "War elephants in mountain passes",
+      "A feigned surrender"
+    ]
+  },
+  {
+    "prompt": "The Can Vuong ('Aid the King') movement of the late 1880s was a resistance against which colonial power?",
+    "choices": [
+      "France",
+      "China",
+      "Japan",
+      "The United States"
+    ]
+  },
+  {
+    "prompt": "Which dynasty is credited with founding the first university of Vietnam, the Temple of Literature (Van Mieu), in Thang Long?",
+    "choices": [
+      "The Ly Dynasty",
+      "The Nguyen Dynasty",
+      "The Tran Dynasty",
+      "The Le Dynasty"
+    ]
+  },
+  {
+    "prompt": "The last Nguyen emperor Bao Dai formally abdicated in which year, handing power to the Viet Minh?",
+    "choices": [
+      "1945",
+      "1954",
+      "1932",
+      "1975"
+    ]
+  },
+  {
+    "prompt": "The 1858 attack that began France's colonial conquest of Vietnam targeted which port city?",
+    "choices": [
+      "Da Nang (Tourane)",
+      "Hai Phong",
+      "Saigon",
+      "Hue"
+    ]
+  },
+  {
+    "prompt": "Ho Chi Minh's original organization founded in 1941 to fight for independence was known by what name?",
+    "choices": [
+      "The Viet Minh",
+      "The Viet Cong",
+      "The Can Vuong",
+      "The Tay Son"
+    ]
+  },
+  {
+    "prompt": "The scholar Le Quy Don, an 18th-century polymath, is often compared to which type of Western figure for his encyclopedic works?",
+    "choices": [
+      "An Enlightenment encyclopedist",
+      "A Renaissance painter",
+      "A Roman general",
+      "A medieval monarch"
+    ]
+  },
+  {
+    "prompt": "The Paris Peace Accords, intended to end U.S. involvement in the Vietnam War, were signed in which year?",
+    "choices": [
+      "1973",
+      "1968",
+      "1975",
+      "1954"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese noodle soup 'bun bo Hue' originates from which city and is known for its spicy, lemongrass-scented broth?",
+    "choices": [
+      "Hue",
+      "Hanoi",
+      "Saigon",
+      "Da Nang"
+    ]
+  },
+  {
+    "prompt": "In Japanese cuisine, 'umami' is often attributed to which naturally occurring compound?",
+    "choices": [
+      "Glutamate",
+      "Fructose",
+      "Citric acid",
+      "Capsaicin"
+    ]
+  },
+  {
+    "prompt": "The Korean fermented soybean paste used as a base for many stews (jjigae) is called what?",
+    "choices": [
+      "Doenjang",
+      "Gochujang",
+      "Ssamjang",
+      "Chunjang"
+    ]
+  },
+  {
+    "prompt": "Which Chinese regional cuisine is best known for bold, spicy flavors and the use of the numbing Sichuan peppercorn?",
+    "choices": [
+      "Sichuan",
+      "Cantonese",
+      "Shanghainese",
+      "Hunanese"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese dish 'cao lau', a noodle dish said to require water from a specific local well, is a specialty of which town?",
+    "choices": [
+      "Hoi An",
+      "Hanoi",
+      "Nha Trang",
+      "Can Tho"
+    ]
+  },
+  {
+    "prompt": "In Japanese cuisine, 'dashi' stock is traditionally made from kombu (kelp) and which other primary ingredient?",
+    "choices": [
+      "Katsuobushi (dried bonito flakes)",
+      "Dried shrimp",
+      "Pork bones",
+      "Chicken feet"
+    ]
+  },
+  {
+    "prompt": "Which spice, derived from a crocus flower, gives biryani and paella their distinctive color and is among the world's most expensive?",
+    "choices": [
+      "Saffron",
+      "Turmeric",
+      "Paprika",
+      "Annatto"
+    ]
+  },
+  {
+    "prompt": "The Filipino national dish featuring meat braised in vinegar, soy sauce, and garlic is called what?",
+    "choices": [
+      "Adobo",
+      "Sinigang",
+      "Lechon",
+      "Kare-kare"
+    ]
+  },
+  {
+    "prompt": "The Thai curry paste that is green in color derives its hue primarily from which ingredient?",
+    "choices": [
+      "Fresh green chilies",
+      "Green tea powder",
+      "Pandan leaves",
+      "Lime zest"
+    ]
+  },
+  {
+    "prompt": "In a traditional Vietnamese 'pho' broth, which spice combination is most characteristic?",
+    "choices": [
+      "Star anise and cinnamon",
+      "Cumin and coriander",
+      "Saffron and cardamom",
+      "Nutmeg and clove only"
+    ]
+  },
+  {
+    "prompt": "The Indian bread 'naan' is traditionally cooked in what type of oven?",
+    "choices": [
+      "Tandoor",
+      "Convection oven",
+      "Wok",
+      "Steamer"
+    ]
+  },
+  {
+    "prompt": "The Japanese art of preparing the potentially poisonous pufferfish, which requires a licensed chef, is known as what?",
+    "choices": [
+      "Fugu preparation",
+      "Kaiseki",
+      "Teppanyaki",
+      "Nabe"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese specialty is a rice porridge often eaten for breakfast or when feeling ill?",
+    "choices": [
+      "Chao",
+      "Xoi",
+      "Che",
+      "Goi"
+    ]
+  },
+  {
+    "prompt": "Korean 'banchan' refers to what part of a meal?",
+    "choices": [
+      "The small side dishes served alongside rice",
+      "The main grilled meat",
+      "A sweet dessert soup",
+      "A type of rice wine"
+    ]
+  },
+  {
+    "prompt": "The Indonesian seasoning paste 'bumbu' and the Malay 'rempah' both refer to what?",
+    "choices": [
+      "A ground blend of spices and aromatics",
+      "A type of fermented fish",
+      "A sweet coconut dessert",
+      "A rice-cooking vessel"
+    ]
+  },
+  {
+    "prompt": "Which Chinese dish literally translates to 'pockmarked old woman's tofu' and features tofu in a spicy sauce?",
+    "choices": [
+      "Mapo tofu",
+      "Kung pao chicken",
+      "Twice-cooked pork",
+      "Dan dan noodles"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese herb 'rau ram', often served with certain dishes, is known in English as what?",
+    "choices": [
+      "Vietnamese coriander",
+      "Thai basil",
+      "Lemongrass",
+      "Perilla"
+    ]
+  },
+  {
+    "prompt": "In sushi terminology, 'nigiri' specifically refers to what?",
+    "choices": [
+      "Hand-pressed rice topped with a slice of fish",
+      "A rolled sushi with seaweed outside",
+      "Sushi served in a bowl",
+      "Raw fish served without rice"
+    ]
+  },
+  {
+    "prompt": "Which fruit, notorious for its strong smell and banned in some hotels, is called the 'king of fruits' in Southeast Asia?",
+    "choices": [
+      "Durian",
+      "Jackfruit",
+      "Rambutan",
+      "Mangosteen"
+    ]
+  },
+  {
+    "prompt": "The Japanese noodle 'soba' is made primarily from which flour?",
+    "choices": [
+      "Buckwheat",
+      "Wheat",
+      "Rice",
+      "Potato starch"
+    ]
+  },
+  {
+    "prompt": "The 'five flavors' balanced in much of traditional Chinese cuisine are sweet, sour, bitter, salty, and which fifth?",
+    "choices": [
+      "Umami (savory)",
+      "Spicy",
+      "Astringent",
+      "Smoky"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese dessert 'che' is best described as what?",
+    "choices": [
+      "A sweet soup or pudding with beans, jelly, and coconut milk",
+      "A savory grilled skewer",
+      "A fried spring roll",
+      "A rice noodle salad"
+    ]
+  },
+  {
+    "prompt": "Which Korean dish consists of rice, vegetables, and gochujang served sizzling in a hot stone bowl?",
+    "choices": [
+      "Dolsot bibimbap",
+      "Bulgogi",
+      "Samgyeopsal",
+      "Naengmyeon"
+    ]
+  },
+  {
+    "prompt": "The prized Japanese beef known for intense marbling, graded by a strict system, famously comes from which region when labeled the most premium?",
+    "choices": [
+      "Kobe (Hyogo Prefecture)",
+      "Hokkaido",
+      "Okinawa",
+      "Kyoto"
+    ]
+  },
+  {
+    "prompt": "Fish sauce, central to Vietnamese and Thai cooking, is produced by fermenting fish with what?",
+    "choices": [
+      "Salt",
+      "Sugar",
+      "Vinegar",
+      "Rice wine"
+    ]
+  },
+  {
+    "prompt": "What is 5 plus 7?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ]
+  },
+  {
+    "prompt": "How many sides does a triangle have?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "prompt": "What is 10 minus 4?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "4"
+    ]
+  },
+  {
+    "prompt": "What is 3 times 3?",
+    "choices": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ]
+  },
+  {
+    "prompt": "Which number is even?",
+    "choices": [
+      "8",
+      "7",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "prompt": "What is half of 20?",
+    "choices": [
+      "10",
+      "5",
+      "15",
+      "40"
+    ]
+  },
+  {
+    "prompt": "How many minutes are in one hour?",
+    "choices": [
+      "60",
+      "30",
+      "100",
+      "24"
+    ]
+  },
+  {
+    "prompt": "What comes next: 2, 4, 6, ...?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "prompt": "What is 100 divided by 10?",
+    "choices": [
+      "10",
+      "1",
+      "100",
+      "20"
+    ]
+  },
+  {
+    "prompt": "Which shape is round?",
+    "choices": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Rectangle"
+    ]
+  },
+  {
+    "prompt": "What force pulls objects toward the ground?",
+    "choices": [
+      "Gravity",
+      "Friction",
+      "Magnetism",
+      "Wind"
+    ]
+  },
+  {
+    "prompt": "What do we call frozen water?",
+    "choices": [
+      "Ice",
+      "Steam",
+      "Rain",
+      "Snowflake gas"
+    ]
+  },
+  {
+    "prompt": "Which travels faster?",
+    "choices": [
+      "Light",
+      "Sound",
+      "A car",
+      "A bicycle"
+    ]
+  },
+  {
+    "prompt": "What is the main source of light and heat for Earth?",
+    "choices": [
+      "The Sun",
+      "The Moon",
+      "Stars far away",
+      "Lightning"
+    ]
+  },
+  {
+    "prompt": "What do you call the push or pull on an object?",
+    "choices": [
+      "Force",
+      "Mass",
+      "Volume",
+      "Color"
+    ]
+  },
+  {
+    "prompt": "A magnet attracts which material?",
+    "choices": [
+      "Iron",
+      "Wood",
+      "Plastic",
+      "Glass"
+    ]
+  },
+  {
+    "prompt": "What state of matter is steam?",
+    "choices": [
+      "Gas",
+      "Solid",
+      "Liquid",
+      "Plasma"
+    ]
+  },
+  {
+    "prompt": "What happens to most objects when you drop them?",
+    "choices": [
+      "They fall down",
+      "They float up",
+      "They stay still",
+      "They disappear"
+    ]
+  },
+  {
+    "prompt": "Which of these gives off light?",
+    "choices": [
+      "A lamp",
+      "A rock",
+      "A book",
+      "A chair"
+    ]
+  },
+  {
+    "prompt": "What do we use to measure temperature?",
+    "choices": [
+      "Thermometer",
+      "Ruler",
+      "Clock",
+      "Scale"
+    ]
+  },
+  {
+    "prompt": "What is the chemical formula for water?",
+    "choices": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ]
+  },
+  {
+    "prompt": "What gas do humans need to breathe to live?",
+    "choices": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium",
+      "Nitrogen"
+    ]
+  },
+  {
+    "prompt": "What is the common name for sodium chloride?",
+    "choices": [
+      "Table salt",
+      "Sugar",
+      "Baking soda",
+      "Vinegar"
+    ]
+  },
+  {
+    "prompt": "Which of these is a metal?",
+    "choices": [
+      "Gold",
+      "Water",
+      "Air",
+      "Wood"
+    ]
+  },
+  {
+    "prompt": "What do we call water that has turned into gas?",
+    "choices": [
+      "Water vapor",
+      "Ice",
+      "Frost",
+      "Snow"
+    ]
+  },
+  {
+    "prompt": "What is the chemical symbol for oxygen?",
+    "choices": [
+      "O",
+      "Ox",
+      "Og",
+      "On"
+    ]
+  },
+  {
+    "prompt": "Which one is a liquid at room temperature?",
+    "choices": [
+      "Water",
+      "Iron",
+      "Salt",
+      "Sand"
+    ]
+  },
+  {
+    "prompt": "What do plants take in that people breathe out?",
+    "choices": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen",
+      "Neon"
+    ]
+  },
+  {
+    "prompt": "What happens to ice when it gets warm?",
+    "choices": [
+      "It melts into water",
+      "It turns to stone",
+      "It disappears instantly",
+      "It gets harder"
+    ]
+  },
+  {
+    "prompt": "Which of these tastes sour?",
+    "choices": [
+      "Lemon",
+      "Sugar",
+      "Salt",
+      "Bread"
+    ]
+  },
+  {
+    "prompt": "What does 'arigatou' mean?",
+    "choices": [
+      "Thank you",
+      "Hello",
+      "Goodbye",
+      "Sorry"
+    ]
+  },
+  {
+    "prompt": "What does 'konnichiwa' mean?",
+    "choices": [
+      "Hello",
+      "Good night",
+      "Thank you",
+      "No"
+    ]
+  },
+  {
+    "prompt": "What does 'hai' mean?",
+    "choices": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Stop"
+    ]
+  },
+  {
+    "prompt": "What does 'neko' mean?",
+    "choices": [
+      "Cat",
+      "Dog",
+      "Fish",
+      "Bird"
+    ]
+  },
+  {
+    "prompt": "What does 'sayounara' mean?",
+    "choices": [
+      "Goodbye",
+      "Hello",
+      "Please",
+      "Thanks"
+    ]
+  },
+  {
+    "prompt": "What is 'ichi' in Japanese?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Ten"
+    ]
+  },
+  {
+    "prompt": "What does 'mizu' mean?",
+    "choices": [
+      "Water",
+      "Fire",
+      "Food",
+      "Air"
+    ]
+  },
+  {
+    "prompt": "What does 'inu' mean?",
+    "choices": [
+      "Dog",
+      "Cat",
+      "Cow",
+      "Horse"
+    ]
+  },
+  {
+    "prompt": "What does 'oishii' mean?",
+    "choices": [
+      "Delicious",
+      "Ugly",
+      "Fast",
+      "Cold"
+    ]
+  },
+  {
+    "prompt": "What does 'sensei' mean?",
+    "choices": [
+      "Teacher",
+      "Student",
+      "Doctor",
+      "Friend"
+    ]
+  },
+  {
+    "prompt": "What does 'CPU' stand for?",
+    "choices": [
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Central Print Utility",
+      "Control Panel Unit"
+    ]
+  },
+  {
+    "prompt": "What do you call the physical parts of a computer you can touch?",
+    "choices": [
+      "Hardware",
+      "Software",
+      "Malware",
+      "Firmware"
+    ]
+  },
+  {
+    "prompt": "Which device is used to type on a computer?",
+    "choices": [
+      "Keyboard",
+      "Monitor",
+      "Speaker",
+      "Printer"
+    ]
+  },
+  {
+    "prompt": "What does 'www' stand for on the internet?",
+    "choices": [
+      "World Wide Web",
+      "Wide Web World",
+      "Web World Wide",
+      "World Web Wide"
+    ]
+  },
+  {
+    "prompt": "Which of these is a web browser?",
+    "choices": [
+      "Chrome",
+      "Windows",
+      "Excel",
+      "Photoshop"
+    ]
+  },
+  {
+    "prompt": "What do you call a harmful program that can damage a computer?",
+    "choices": [
+      "Virus",
+      "Cursor",
+      "Folder",
+      "Pixel"
+    ]
+  },
+  {
+    "prompt": "What does the mouse control on the screen?",
+    "choices": [
+      "The cursor",
+      "The volume",
+      "The brightness",
+      "The battery"
+    ]
+  },
+  {
+    "prompt": "How many values does a single bit have?",
+    "choices": [
+      "2 (0 or 1)",
+      "10",
+      "8",
+      "1"
+    ]
+  },
+  {
+    "prompt": "What do you call a set of instructions that tells a computer what to do?",
+    "choices": [
+      "A program",
+      "A monitor",
+      "A cable",
+      "A speaker"
+    ]
+  },
+  {
+    "prompt": "Which company makes the Windows operating system?",
+    "choices": [
+      "Microsoft",
+      "Apple",
+      "Google",
+      "Amazon"
+    ]
+  },
+  {
+    "prompt": "Which band sang 'Hey Jude' and 'Let It Be'?",
+    "choices": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Queen",
+      "ABBA"
+    ]
+  },
+  {
+    "prompt": "Which K-pop group is famous worldwide for 'Dynamite'?",
+    "choices": [
+      "BTS",
+      "EXO",
+      "TWICE",
+      "NCT"
+    ]
+  },
+  {
+    "prompt": "Who is known as the 'King of Pop'?",
+    "choices": [
+      "Michael Jackson",
+      "Elvis Presley",
+      "Bruno Mars",
+      "Drake"
+    ]
+  },
+  {
+    "prompt": "Which US singer released 'Shake It Off'?",
+    "choices": [
+      "Taylor Swift",
+      "Katy Perry",
+      "Adele",
+      "Rihanna"
+    ]
+  },
+  {
+    "prompt": "Which K-pop girl group is known for 'How You Like That'?",
+    "choices": [
+      "BLACKPINK",
+      "Red Velvet",
+      "ITZY",
+      "aespa"
+    ]
+  },
+  {
+    "prompt": "Which British band recorded 'Bohemian Rhapsody'?",
+    "choices": [
+      "Queen",
+      "Oasis",
+      "Coldplay",
+      "The Who"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese singer is famous for 'Lac Troi'?",
+    "choices": [
+      "Son Tung M-TP",
+      "Den Vau",
+      "Erik",
+      "Jack"
+    ]
+  },
+  {
+    "prompt": "Which British singer is famous for the song 'Hello' from the album '25'?",
+    "choices": [
+      "Adele",
+      "Dua Lipa",
+      "Ed Sheeran",
+      "Sam Smith"
+    ]
+  },
+  {
+    "prompt": "Which Korean song by PSY became a huge global viral hit?",
+    "choices": [
+      "Gangnam Style",
+      "Growl",
+      "Cheer Up",
+      "Kill This Love"
+    ]
+  },
+  {
+    "prompt": "Which US singer released 'Bad Guy'?",
+    "choices": [
+      "Billie Eilish",
+      "Ariana Grande",
+      "Selena Gomez",
+      "Halsey"
+    ]
+  },
+  {
+    "prompt": "Which leader declared Vietnam's independence in 1945?",
+    "choices": [
+      "Ho Chi Minh",
+      "Vo Nguyen Giap",
+      "Le Duan",
+      "Bao Dai"
+    ]
+  },
+  {
+    "prompt": "The Trung Sisters are famous for leading a rebellion against which country's rule?",
+    "choices": [
+      "China",
+      "France",
+      "Japan",
+      "The United States"
+    ]
+  },
+  {
+    "prompt": "In which year did the Vietnam War end with the fall of Saigon?",
+    "choices": [
+      "1975",
+      "1945",
+      "1990",
+      "1960"
+    ]
+  },
+  {
+    "prompt": "What is the capital of Vietnam today?",
+    "choices": [
+      "Hanoi",
+      "Hue",
+      "Da Nang",
+      "Can Tho"
+    ]
+  },
+  {
+    "prompt": "Ho Chi Minh City was formerly known by what name?",
+    "choices": [
+      "Saigon",
+      "Hanoi",
+      "Hue",
+      "Hoi An"
+    ]
+  },
+  {
+    "prompt": "Which country colonized Vietnam for about a century until the 1950s?",
+    "choices": [
+      "France",
+      "Britain",
+      "Spain",
+      "Portugal"
+    ]
+  },
+  {
+    "prompt": "Vietnam is located on which continent?",
+    "choices": [
+      "Asia",
+      "Europe",
+      "Africa",
+      "South America"
+    ]
+  },
+  {
+    "prompt": "Who was the last emperor of Vietnam?",
+    "choices": [
+      "Bao Dai",
+      "Gia Long",
+      "Minh Mang",
+      "Tu Duc"
+    ]
+  },
+  {
+    "prompt": "The legendary Hung Kings are considered the founders of which country?",
+    "choices": [
+      "Vietnam",
+      "China",
+      "Korea",
+      "Thailand"
+    ]
+  },
+  {
+    "prompt": "Which general is celebrated for defeating the Mongol invasions of Vietnam?",
+    "choices": [
+      "Tran Hung Dao",
+      "Ho Chi Minh",
+      "Gia Long",
+      "Le Duan"
+    ]
+  },
+  {
+    "prompt": "Which famous noodle soup comes from Vietnam?",
+    "choices": [
+      "Pho",
+      "Ramen",
+      "Pad Thai",
+      "Laksa"
+    ]
+  },
+  {
+    "prompt": "Sushi is a dish that comes from which country?",
+    "choices": [
+      "Japan",
+      "Korea",
+      "China",
+      "Thailand"
+    ]
+  },
+  {
+    "prompt": "Kimchi is a well-known dish from which country?",
+    "choices": [
+      "Korea",
+      "Japan",
+      "Vietnam",
+      "India"
+    ]
+  },
+  {
+    "prompt": "What grain is a staple food across most of Asia?",
+    "choices": [
+      "Rice",
+      "Wheat",
+      "Corn",
+      "Oats"
+    ]
+  },
+  {
+    "prompt": "Which utensils are traditionally used to eat in many Asian countries?",
+    "choices": [
+      "Chopsticks",
+      "Forks only",
+      "Spoons only",
+      "Hands only"
+    ]
+  },
+  {
+    "prompt": "Banh mi is a sandwich from which country?",
+    "choices": [
+      "Vietnam",
+      "Japan",
+      "Korea",
+      "China"
+    ]
+  },
+  {
+    "prompt": "Which of these is a Japanese noodle dish served in hot broth?",
+    "choices": [
+      "Ramen",
+      "Bibimbap",
+      "Biryani",
+      "Pho"
+    ]
+  },
+  {
+    "prompt": "Which sauce is commonly used in Chinese and Japanese cooking?",
+    "choices": [
+      "Soy sauce",
+      "Maple syrup",
+      "Ketchup",
+      "Mustard"
+    ]
+  },
+  {
+    "prompt": "Curry is a dish strongly associated with which country?",
+    "choices": [
+      "India",
+      "Japan",
+      "Vietnam",
+      "Korea"
+    ]
+  },
+  {
+    "prompt": "Green tea is a popular drink that originated in which region?",
+    "choices": [
+      "East Asia",
+      "Northern Europe",
+      "South America",
+      "Australia"
+    ]
+  }
+]
