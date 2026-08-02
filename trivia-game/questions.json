@@ -1,5 +1,23 @@
 [
   {
+    "prompt": "What do plants take in that people breathe out?",
+    "choices": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen",
+      "Neon"
+    ]
+  },
+  {
+    "prompt": "The Vietnamese dessert 'che' is best described as what?",
+    "choices": [
+      "A sweet soup or pudding with beans, jelly, and coconut milk",
+      "A savory grilled skewer",
+      "A fried spring roll",
+      "A rice noodle salad"
+    ]
+  },
+  {
     "prompt": "What is the determinant of the 2x2 matrix [[3, 8], [4, 6]]?",
     "choices": [
       "-14",
@@ -1764,15 +1782,6 @@
     ]
   },
   {
-    "prompt": "The Vietnamese dessert 'che' is best described as what?",
-    "choices": [
-      "A sweet soup or pudding with beans, jelly, and coconut milk",
-      "A savory grilled skewer",
-      "A fried spring roll",
-      "A rice noodle salad"
-    ]
-  },
-  {
     "prompt": "Which Korean dish consists of rice, vegetables, and gochujang served sizzling in a hot stone bowl?",
     "choices": [
       "Dolsot bibimbap",
@@ -2040,15 +2049,6 @@
       "Iron",
       "Salt",
       "Sand"
-    ]
-  },
-  {
-    "prompt": "What do plants take in that people breathe out?",
-    "choices": [
-      "Carbon dioxide",
-      "Oxygen",
-      "Hydrogen",
-      "Neon"
     ]
   },
   {
