@@ -31,36 +31,41 @@ def randomize_choices(choices: list[str], answer_idx: int) -> tuple[list[str], i
 
 
 class Question:
-    prompt: str
-    choices: list[str]
+    _text: str
+    _choices: list[str]
     _answer: int
 
-    @staticmethod
-    def from_dict(raw_data) -> "Question":
-        q = Question()
-        q.prompt = raw_data['prompt']
-        q.choices, q._answer = randomize_choices(raw_data['choices'], 0)
-        return q
+    def __init__(self, text: str, choices: list[str], answer: int):
+        self._text = text
+        self._choices, self._answer = randomize_choices(choices, answer)
+
+    def prompt(self) -> str:
+        """Return the question's full prompt."""
+        return self._text + '\n' + self._formatted_choices()
 
     def is_correct(self, user_answer: str) -> bool:
         """Check whether the given answer is correct."""
         return user_answer.lower() == self._choice_label(self._answer).lower()
 
-    def formatted_choices(self) -> str:
+    def correct_answer(self) -> str:
+        """
+        Return the correct answer. `is_correct` must return true when the returned
+        string is passed.
+        """
+        return self._choice_label(self._answer)
+
+    def _formatted_choices(self) -> str:
         """Return a formatted string containing the list of choices."""
         retval = ''
-        for idx, choice in enumerate(self.choices):
+        for idx, choice in enumerate(self._choices):
             retval += f'{self._choice_label(idx)}. {choice}'
-            if idx != len(self.choices) - 1:
+            if idx != len(self._choices) - 1:
                 retval += '\n'
 
         return retval
 
-    def correct_choice_label(self) -> str:
-        return self._choice_label(self._answer)
-
     def _choice_label(self, idx: int) -> str:
-        return chr(ord('A') + idx)
+        return str(idx + 1)
 
 
 class Game:
@@ -75,8 +80,7 @@ class Game:
 
     def run(self):
         current_question = self.questions[self._current_question_idx]
-        print(current_question.prompt)
-        print(current_question.formatted_choices())
+        print(current_question.prompt())
 
         answer = ""
         while answer == "":
@@ -87,7 +91,7 @@ class Game:
             self.score += 1
         else:
             print(
-                f"❌ Incorrect. The correct answer is '{current_question.correct_choice_label()}'.")
+                f"❌ Incorrect. The correct answer is '{current_question.correct_answer()}'.")
         print('---')
 
         self._current_question_idx += 1
@@ -100,10 +104,11 @@ NUM_QUESTIONS = 10
 
 questions = []
 for raw_question in sample(raw_questions, NUM_QUESTIONS):
-    questions.append(Question.from_dict(raw_question))
+    questions.append(Question(
+        text=raw_question['prompt'], choices=raw_question['choices'], answer=0))
 game = Game(questions=questions)
 
 while not game.is_over():
     game.run()
 
-print(f"Final score: {game.score}.")
+print(f"You got {game.score} out of {NUM_QUESTIONS} questions correct.")

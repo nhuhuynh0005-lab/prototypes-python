@@ -1,20 +1,713 @@
 [
   {
-    "prompt": "What do plants take in that people breathe out?",
+    "prompt": "What is 5 plus 7?",
     "choices": [
-      "Carbon dioxide",
-      "Oxygen",
-      "Hydrogen",
-      "Neon"
+      "12",
+      "11",
+      "13",
+      "10"
     ]
   },
   {
-    "prompt": "The Vietnamese dessert 'che' is best described as what?",
+    "prompt": "How many sides does a triangle have?",
     "choices": [
-      "A sweet soup or pudding with beans, jelly, and coconut milk",
-      "A savory grilled skewer",
-      "A fried spring roll",
-      "A rice noodle salad"
+      "3",
+      "4",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "prompt": "What is 10 minus 4?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "4"
+    ]
+  },
+  {
+    "prompt": "What is 3 times 3?",
+    "choices": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ]
+  },
+  {
+    "prompt": "Which number is even?",
+    "choices": [
+      "8",
+      "7",
+      "5",
+      "3"
+    ]
+  },
+  {
+    "prompt": "What is half of 20?",
+    "choices": [
+      "10",
+      "5",
+      "15",
+      "40"
+    ]
+  },
+  {
+    "prompt": "How many minutes are in one hour?",
+    "choices": [
+      "60",
+      "30",
+      "100",
+      "24"
+    ]
+  },
+  {
+    "prompt": "What comes next: 2, 4, 6, ...?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "prompt": "What is 100 divided by 10?",
+    "choices": [
+      "10",
+      "1",
+      "100",
+      "20"
+    ]
+  },
+  {
+    "prompt": "Which shape is round?",
+    "choices": [
+      "Circle",
+      "Square",
+      "Triangle",
+      "Rectangle"
+    ]
+  },
+  {
+    "prompt": "What force pulls objects toward the ground?",
+    "choices": [
+      "Gravity",
+      "Friction",
+      "Magnetism",
+      "Wind"
+    ]
+  },
+  {
+    "prompt": "What do we call frozen water?",
+    "choices": [
+      "Ice",
+      "Steam",
+      "Rain",
+      "Snowflake gas"
+    ]
+  },
+  {
+    "prompt": "Which travels faster?",
+    "choices": [
+      "Light",
+      "Sound",
+      "A car",
+      "A bicycle"
+    ]
+  },
+  {
+    "prompt": "What is the main source of light and heat for Earth?",
+    "choices": [
+      "The Sun",
+      "The Moon",
+      "Stars far away",
+      "Lightning"
+    ]
+  },
+  {
+    "prompt": "What do you call the push or pull on an object?",
+    "choices": [
+      "Force",
+      "Mass",
+      "Volume",
+      "Color"
+    ]
+  },
+  {
+    "prompt": "A magnet attracts which material?",
+    "choices": [
+      "Iron",
+      "Wood",
+      "Plastic",
+      "Glass"
+    ]
+  },
+  {
+    "prompt": "What state of matter is steam?",
+    "choices": [
+      "Gas",
+      "Solid",
+      "Liquid",
+      "Plasma"
+    ]
+  },
+  {
+    "prompt": "What happens to most objects when you drop them?",
+    "choices": [
+      "They fall down",
+      "They float up",
+      "They stay still",
+      "They disappear"
+    ]
+  },
+  {
+    "prompt": "Which of these gives off light?",
+    "choices": [
+      "A lamp",
+      "A rock",
+      "A book",
+      "A chair"
+    ]
+  },
+  {
+    "prompt": "What do we use to measure temperature?",
+    "choices": [
+      "Thermometer",
+      "Ruler",
+      "Clock",
+      "Scale"
+    ]
+  },
+  {
+    "prompt": "What is the chemical formula for water?",
+    "choices": [
+      "H2O",
+      "CO2",
+      "O2",
+      "NaCl"
+    ]
+  },
+  {
+    "prompt": "What gas do humans need to breathe to live?",
+    "choices": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium",
+      "Nitrogen"
+    ]
+  },
+  {
+    "prompt": "What is the common name for sodium chloride?",
+    "choices": [
+      "Table salt",
+      "Sugar",
+      "Baking soda",
+      "Vinegar"
+    ]
+  },
+  {
+    "prompt": "Which of these is a metal?",
+    "choices": [
+      "Gold",
+      "Water",
+      "Air",
+      "Wood"
+    ]
+  },
+  {
+    "prompt": "What do we call water that has turned into gas?",
+    "choices": [
+      "Water vapor",
+      "Ice",
+      "Frost",
+      "Snow"
+    ]
+  },
+  {
+    "prompt": "What is the chemical symbol for oxygen?",
+    "choices": [
+      "O",
+      "Ox",
+      "Og",
+      "On"
+    ]
+  },
+  {
+    "prompt": "Which one is a liquid at room temperature?",
+    "choices": [
+      "Water",
+      "Iron",
+      "Salt",
+      "Sand"
+    ]
+  },
+  {
+    "prompt": "What happens to ice when it gets warm?",
+    "choices": [
+      "It melts into water",
+      "It turns to stone",
+      "It disappears instantly",
+      "It gets harder"
+    ]
+  },
+  {
+    "prompt": "Which of these tastes sour?",
+    "choices": [
+      "Lemon",
+      "Sugar",
+      "Salt",
+      "Bread"
+    ]
+  },
+  {
+    "prompt": "What does 'arigatou' mean?",
+    "choices": [
+      "Thank you",
+      "Hello",
+      "Goodbye",
+      "Sorry"
+    ]
+  },
+  {
+    "prompt": "What does 'konnichiwa' mean?",
+    "choices": [
+      "Hello",
+      "Good night",
+      "Thank you",
+      "No"
+    ]
+  },
+  {
+    "prompt": "What does 'hai' mean?",
+    "choices": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Stop"
+    ]
+  },
+  {
+    "prompt": "What does 'neko' mean?",
+    "choices": [
+      "Cat",
+      "Dog",
+      "Fish",
+      "Bird"
+    ]
+  },
+  {
+    "prompt": "What does 'sayounara' mean?",
+    "choices": [
+      "Goodbye",
+      "Hello",
+      "Please",
+      "Thanks"
+    ]
+  },
+  {
+    "prompt": "What is 'ichi' in Japanese?",
+    "choices": [
+      "One",
+      "Two",
+      "Three",
+      "Ten"
+    ]
+  },
+  {
+    "prompt": "What does 'mizu' mean?",
+    "choices": [
+      "Water",
+      "Fire",
+      "Food",
+      "Air"
+    ]
+  },
+  {
+    "prompt": "What does 'inu' mean?",
+    "choices": [
+      "Dog",
+      "Cat",
+      "Cow",
+      "Horse"
+    ]
+  },
+  {
+    "prompt": "What does 'oishii' mean?",
+    "choices": [
+      "Delicious",
+      "Ugly",
+      "Fast",
+      "Cold"
+    ]
+  },
+  {
+    "prompt": "What does 'sensei' mean?",
+    "choices": [
+      "Teacher",
+      "Student",
+      "Doctor",
+      "Friend"
+    ]
+  },
+  {
+    "prompt": "What does 'CPU' stand for?",
+    "choices": [
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Central Print Utility",
+      "Control Panel Unit"
+    ]
+  },
+  {
+    "prompt": "What do you call the physical parts of a computer you can touch?",
+    "choices": [
+      "Hardware",
+      "Software",
+      "Malware",
+      "Firmware"
+    ]
+  },
+  {
+    "prompt": "Which device is used to type on a computer?",
+    "choices": [
+      "Keyboard",
+      "Monitor",
+      "Speaker",
+      "Printer"
+    ]
+  },
+  {
+    "prompt": "What does 'www' stand for on the internet?",
+    "choices": [
+      "World Wide Web",
+      "Wide Web World",
+      "Web World Wide",
+      "World Web Wide"
+    ]
+  },
+  {
+    "prompt": "Which of these is a web browser?",
+    "choices": [
+      "Chrome",
+      "Windows",
+      "Excel",
+      "Photoshop"
+    ]
+  },
+  {
+    "prompt": "What do you call a harmful program that can damage a computer?",
+    "choices": [
+      "Virus",
+      "Cursor",
+      "Folder",
+      "Pixel"
+    ]
+  },
+  {
+    "prompt": "What does the mouse control on the screen?",
+    "choices": [
+      "The cursor",
+      "The volume",
+      "The brightness",
+      "The battery"
+    ]
+  },
+  {
+    "prompt": "How many values does a single bit have?",
+    "choices": [
+      "2 (0 or 1)",
+      "10",
+      "8",
+      "1"
+    ]
+  },
+  {
+    "prompt": "What do you call a set of instructions that tells a computer what to do?",
+    "choices": [
+      "A program",
+      "A monitor",
+      "A cable",
+      "A speaker"
+    ]
+  },
+  {
+    "prompt": "Which company makes the Windows operating system?",
+    "choices": [
+      "Microsoft",
+      "Apple",
+      "Google",
+      "Amazon"
+    ]
+  },
+  {
+    "prompt": "Which band sang 'Hey Jude' and 'Let It Be'?",
+    "choices": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Queen",
+      "ABBA"
+    ]
+  },
+  {
+    "prompt": "Which K-pop group is famous worldwide for 'Dynamite'?",
+    "choices": [
+      "BTS",
+      "EXO",
+      "TWICE",
+      "NCT"
+    ]
+  },
+  {
+    "prompt": "Who is known as the 'King of Pop'?",
+    "choices": [
+      "Michael Jackson",
+      "Elvis Presley",
+      "Bruno Mars",
+      "Drake"
+    ]
+  },
+  {
+    "prompt": "Which US singer released 'Shake It Off'?",
+    "choices": [
+      "Taylor Swift",
+      "Katy Perry",
+      "Adele",
+      "Rihanna"
+    ]
+  },
+  {
+    "prompt": "Which K-pop girl group is known for 'How You Like That'?",
+    "choices": [
+      "BLACKPINK",
+      "Red Velvet",
+      "ITZY",
+      "aespa"
+    ]
+  },
+  {
+    "prompt": "Which British band recorded 'Bohemian Rhapsody'?",
+    "choices": [
+      "Queen",
+      "Oasis",
+      "Coldplay",
+      "The Who"
+    ]
+  },
+  {
+    "prompt": "Which Vietnamese singer is famous for 'Lac Troi'?",
+    "choices": [
+      "Son Tung M-TP",
+      "Den Vau",
+      "Erik",
+      "Jack"
+    ]
+  },
+  {
+    "prompt": "Which British singer is famous for the song 'Hello' from the album '25'?",
+    "choices": [
+      "Adele",
+      "Dua Lipa",
+      "Ed Sheeran",
+      "Sam Smith"
+    ]
+  },
+  {
+    "prompt": "Which Korean song by PSY became a huge global viral hit?",
+    "choices": [
+      "Gangnam Style",
+      "Growl",
+      "Cheer Up",
+      "Kill This Love"
+    ]
+  },
+  {
+    "prompt": "Which US singer released 'Bad Guy'?",
+    "choices": [
+      "Billie Eilish",
+      "Ariana Grande",
+      "Selena Gomez",
+      "Halsey"
+    ]
+  },
+  {
+    "prompt": "Which leader declared Vietnam's independence in 1945?",
+    "choices": [
+      "Ho Chi Minh",
+      "Vo Nguyen Giap",
+      "Le Duan",
+      "Bao Dai"
+    ]
+  },
+  {
+    "prompt": "The Trung Sisters are famous for leading a rebellion against which country's rule?",
+    "choices": [
+      "China",
+      "France",
+      "Japan",
+      "The United States"
+    ]
+  },
+  {
+    "prompt": "In which year did the Vietnam War end with the fall of Saigon?",
+    "choices": [
+      "1975",
+      "1945",
+      "1990",
+      "1960"
+    ]
+  },
+  {
+    "prompt": "What is the capital of Vietnam today?",
+    "choices": [
+      "Hanoi",
+      "Hue",
+      "Da Nang",
+      "Can Tho"
+    ]
+  },
+  {
+    "prompt": "Ho Chi Minh City was formerly known by what name?",
+    "choices": [
+      "Saigon",
+      "Hanoi",
+      "Hue",
+      "Hoi An"
+    ]
+  },
+  {
+    "prompt": "Which country colonized Vietnam for about a century until the 1950s?",
+    "choices": [
+      "France",
+      "Britain",
+      "Spain",
+      "Portugal"
+    ]
+  },
+  {
+    "prompt": "Vietnam is located on which continent?",
+    "choices": [
+      "Asia",
+      "Europe",
+      "Africa",
+      "South America"
+    ]
+  },
+  {
+    "prompt": "Who was the last emperor of Vietnam?",
+    "choices": [
+      "Bao Dai",
+      "Gia Long",
+      "Minh Mang",
+      "Tu Duc"
+    ]
+  },
+  {
+    "prompt": "The legendary Hung Kings are considered the founders of which country?",
+    "choices": [
+      "Vietnam",
+      "China",
+      "Korea",
+      "Thailand"
+    ]
+  },
+  {
+    "prompt": "Which general is celebrated for defeating the Mongol invasions of Vietnam?",
+    "choices": [
+      "Tran Hung Dao",
+      "Ho Chi Minh",
+      "Gia Long",
+      "Le Duan"
+    ]
+  },
+  {
+    "prompt": "Which famous noodle soup comes from Vietnam?",
+    "choices": [
+      "Pho",
+      "Ramen",
+      "Pad Thai",
+      "Laksa"
+    ]
+  },
+  {
+    "prompt": "Sushi is a dish that comes from which country?",
+    "choices": [
+      "Japan",
+      "Korea",
+      "China",
+      "Thailand"
+    ]
+  },
+  {
+    "prompt": "Kimchi is a well-known dish from which country?",
+    "choices": [
+      "Korea",
+      "Japan",
+      "Vietnam",
+      "India"
+    ]
+  },
+  {
+    "prompt": "What grain is a staple food across most of Asia?",
+    "choices": [
+      "Rice",
+      "Wheat",
+      "Corn",
+      "Oats"
+    ]
+  },
+  {
+    "prompt": "Which utensils are traditionally used to eat in many Asian countries?",
+    "choices": [
+      "Chopsticks",
+      "Forks only",
+      "Spoons only",
+      "Hands only"
+    ]
+  },
+  {
+    "prompt": "Banh mi is a sandwich from which country?",
+    "choices": [
+      "Vietnam",
+      "Japan",
+      "Korea",
+      "China"
+    ]
+  },
+  {
+    "prompt": "Which of these is a Japanese noodle dish served in hot broth?",
+    "choices": [
+      "Ramen",
+      "Bibimbap",
+      "Biryani",
+      "Pho"
+    ]
+  },
+  {
+    "prompt": "Which sauce is commonly used in Chinese and Japanese cooking?",
+    "choices": [
+      "Soy sauce",
+      "Maple syrup",
+      "Ketchup",
+      "Mustard"
+    ]
+  },
+  {
+    "prompt": "Curry is a dish strongly associated with which country?",
+    "choices": [
+      "India",
+      "Japan",
+      "Vietnam",
+      "Korea"
+    ]
+  },
+  {
+    "prompt": "Green tea is a popular drink that originated in which region?",
+    "choices": [
+      "East Asia",
+      "Northern Europe",
+      "South America",
+      "Australia"
     ]
   },
   {
@@ -1809,714 +2502,21 @@
     ]
   },
   {
-    "prompt": "What is 5 plus 7?",
+    "prompt": "What do plants take in that people breathe out?",
     "choices": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ]
-  },
-  {
-    "prompt": "How many sides does a triangle have?",
-    "choices": [
-      "3",
-      "4",
-      "5",
-      "2"
-    ]
-  },
-  {
-    "prompt": "What is 10 minus 4?",
-    "choices": [
-      "6",
-      "5",
-      "7",
-      "4"
-    ]
-  },
-  {
-    "prompt": "What is 3 times 3?",
-    "choices": [
-      "9",
-      "6",
-      "12",
-      "8"
-    ]
-  },
-  {
-    "prompt": "Which number is even?",
-    "choices": [
-      "8",
-      "7",
-      "5",
-      "3"
-    ]
-  },
-  {
-    "prompt": "What is half of 20?",
-    "choices": [
-      "10",
-      "5",
-      "15",
-      "40"
-    ]
-  },
-  {
-    "prompt": "How many minutes are in one hour?",
-    "choices": [
-      "60",
-      "30",
-      "100",
-      "24"
-    ]
-  },
-  {
-    "prompt": "What comes next: 2, 4, 6, ...?",
-    "choices": [
-      "8",
-      "7",
-      "9",
-      "10"
-    ]
-  },
-  {
-    "prompt": "What is 100 divided by 10?",
-    "choices": [
-      "10",
-      "1",
-      "100",
-      "20"
-    ]
-  },
-  {
-    "prompt": "Which shape is round?",
-    "choices": [
-      "Circle",
-      "Square",
-      "Triangle",
-      "Rectangle"
-    ]
-  },
-  {
-    "prompt": "What force pulls objects toward the ground?",
-    "choices": [
-      "Gravity",
-      "Friction",
-      "Magnetism",
-      "Wind"
-    ]
-  },
-  {
-    "prompt": "What do we call frozen water?",
-    "choices": [
-      "Ice",
-      "Steam",
-      "Rain",
-      "Snowflake gas"
-    ]
-  },
-  {
-    "prompt": "Which travels faster?",
-    "choices": [
-      "Light",
-      "Sound",
-      "A car",
-      "A bicycle"
-    ]
-  },
-  {
-    "prompt": "What is the main source of light and heat for Earth?",
-    "choices": [
-      "The Sun",
-      "The Moon",
-      "Stars far away",
-      "Lightning"
-    ]
-  },
-  {
-    "prompt": "What do you call the push or pull on an object?",
-    "choices": [
-      "Force",
-      "Mass",
-      "Volume",
-      "Color"
-    ]
-  },
-  {
-    "prompt": "A magnet attracts which material?",
-    "choices": [
-      "Iron",
-      "Wood",
-      "Plastic",
-      "Glass"
-    ]
-  },
-  {
-    "prompt": "What state of matter is steam?",
-    "choices": [
-      "Gas",
-      "Solid",
-      "Liquid",
-      "Plasma"
-    ]
-  },
-  {
-    "prompt": "What happens to most objects when you drop them?",
-    "choices": [
-      "They fall down",
-      "They float up",
-      "They stay still",
-      "They disappear"
-    ]
-  },
-  {
-    "prompt": "Which of these gives off light?",
-    "choices": [
-      "A lamp",
-      "A rock",
-      "A book",
-      "A chair"
-    ]
-  },
-  {
-    "prompt": "What do we use to measure temperature?",
-    "choices": [
-      "Thermometer",
-      "Ruler",
-      "Clock",
-      "Scale"
-    ]
-  },
-  {
-    "prompt": "What is the chemical formula for water?",
-    "choices": [
-      "H2O",
-      "CO2",
-      "O2",
-      "NaCl"
-    ]
-  },
-  {
-    "prompt": "What gas do humans need to breathe to live?",
-    "choices": [
-      "Oxygen",
       "Carbon dioxide",
-      "Helium",
-      "Nitrogen"
+      "Oxygen",
+      "Hydrogen",
+      "Neon"
     ]
   },
   {
-    "prompt": "What is the common name for sodium chloride?",
+    "prompt": "The Vietnamese dessert 'che' is best described as what?",
     "choices": [
-      "Table salt",
-      "Sugar",
-      "Baking soda",
-      "Vinegar"
-    ]
-  },
-  {
-    "prompt": "Which of these is a metal?",
-    "choices": [
-      "Gold",
-      "Water",
-      "Air",
-      "Wood"
-    ]
-  },
-  {
-    "prompt": "What do we call water that has turned into gas?",
-    "choices": [
-      "Water vapor",
-      "Ice",
-      "Frost",
-      "Snow"
-    ]
-  },
-  {
-    "prompt": "What is the chemical symbol for oxygen?",
-    "choices": [
-      "O",
-      "Ox",
-      "Og",
-      "On"
-    ]
-  },
-  {
-    "prompt": "Which one is a liquid at room temperature?",
-    "choices": [
-      "Water",
-      "Iron",
-      "Salt",
-      "Sand"
-    ]
-  },
-  {
-    "prompt": "What happens to ice when it gets warm?",
-    "choices": [
-      "It melts into water",
-      "It turns to stone",
-      "It disappears instantly",
-      "It gets harder"
-    ]
-  },
-  {
-    "prompt": "Which of these tastes sour?",
-    "choices": [
-      "Lemon",
-      "Sugar",
-      "Salt",
-      "Bread"
-    ]
-  },
-  {
-    "prompt": "What does 'arigatou' mean?",
-    "choices": [
-      "Thank you",
-      "Hello",
-      "Goodbye",
-      "Sorry"
-    ]
-  },
-  {
-    "prompt": "What does 'konnichiwa' mean?",
-    "choices": [
-      "Hello",
-      "Good night",
-      "Thank you",
-      "No"
-    ]
-  },
-  {
-    "prompt": "What does 'hai' mean?",
-    "choices": [
-      "Yes",
-      "No",
-      "Maybe",
-      "Stop"
-    ]
-  },
-  {
-    "prompt": "What does 'neko' mean?",
-    "choices": [
-      "Cat",
-      "Dog",
-      "Fish",
-      "Bird"
-    ]
-  },
-  {
-    "prompt": "What does 'sayounara' mean?",
-    "choices": [
-      "Goodbye",
-      "Hello",
-      "Please",
-      "Thanks"
-    ]
-  },
-  {
-    "prompt": "What is 'ichi' in Japanese?",
-    "choices": [
-      "One",
-      "Two",
-      "Three",
-      "Ten"
-    ]
-  },
-  {
-    "prompt": "What does 'mizu' mean?",
-    "choices": [
-      "Water",
-      "Fire",
-      "Food",
-      "Air"
-    ]
-  },
-  {
-    "prompt": "What does 'inu' mean?",
-    "choices": [
-      "Dog",
-      "Cat",
-      "Cow",
-      "Horse"
-    ]
-  },
-  {
-    "prompt": "What does 'oishii' mean?",
-    "choices": [
-      "Delicious",
-      "Ugly",
-      "Fast",
-      "Cold"
-    ]
-  },
-  {
-    "prompt": "What does 'sensei' mean?",
-    "choices": [
-      "Teacher",
-      "Student",
-      "Doctor",
-      "Friend"
-    ]
-  },
-  {
-    "prompt": "What does 'CPU' stand for?",
-    "choices": [
-      "Central Processing Unit",
-      "Computer Power Unit",
-      "Central Print Utility",
-      "Control Panel Unit"
-    ]
-  },
-  {
-    "prompt": "What do you call the physical parts of a computer you can touch?",
-    "choices": [
-      "Hardware",
-      "Software",
-      "Malware",
-      "Firmware"
-    ]
-  },
-  {
-    "prompt": "Which device is used to type on a computer?",
-    "choices": [
-      "Keyboard",
-      "Monitor",
-      "Speaker",
-      "Printer"
-    ]
-  },
-  {
-    "prompt": "What does 'www' stand for on the internet?",
-    "choices": [
-      "World Wide Web",
-      "Wide Web World",
-      "Web World Wide",
-      "World Web Wide"
-    ]
-  },
-  {
-    "prompt": "Which of these is a web browser?",
-    "choices": [
-      "Chrome",
-      "Windows",
-      "Excel",
-      "Photoshop"
-    ]
-  },
-  {
-    "prompt": "What do you call a harmful program that can damage a computer?",
-    "choices": [
-      "Virus",
-      "Cursor",
-      "Folder",
-      "Pixel"
-    ]
-  },
-  {
-    "prompt": "What does the mouse control on the screen?",
-    "choices": [
-      "The cursor",
-      "The volume",
-      "The brightness",
-      "The battery"
-    ]
-  },
-  {
-    "prompt": "How many values does a single bit have?",
-    "choices": [
-      "2 (0 or 1)",
-      "10",
-      "8",
-      "1"
-    ]
-  },
-  {
-    "prompt": "What do you call a set of instructions that tells a computer what to do?",
-    "choices": [
-      "A program",
-      "A monitor",
-      "A cable",
-      "A speaker"
-    ]
-  },
-  {
-    "prompt": "Which company makes the Windows operating system?",
-    "choices": [
-      "Microsoft",
-      "Apple",
-      "Google",
-      "Amazon"
-    ]
-  },
-  {
-    "prompt": "Which band sang 'Hey Jude' and 'Let It Be'?",
-    "choices": [
-      "The Beatles",
-      "The Rolling Stones",
-      "Queen",
-      "ABBA"
-    ]
-  },
-  {
-    "prompt": "Which K-pop group is famous worldwide for 'Dynamite'?",
-    "choices": [
-      "BTS",
-      "EXO",
-      "TWICE",
-      "NCT"
-    ]
-  },
-  {
-    "prompt": "Who is known as the 'King of Pop'?",
-    "choices": [
-      "Michael Jackson",
-      "Elvis Presley",
-      "Bruno Mars",
-      "Drake"
-    ]
-  },
-  {
-    "prompt": "Which US singer released 'Shake It Off'?",
-    "choices": [
-      "Taylor Swift",
-      "Katy Perry",
-      "Adele",
-      "Rihanna"
-    ]
-  },
-  {
-    "prompt": "Which K-pop girl group is known for 'How You Like That'?",
-    "choices": [
-      "BLACKPINK",
-      "Red Velvet",
-      "ITZY",
-      "aespa"
-    ]
-  },
-  {
-    "prompt": "Which British band recorded 'Bohemian Rhapsody'?",
-    "choices": [
-      "Queen",
-      "Oasis",
-      "Coldplay",
-      "The Who"
-    ]
-  },
-  {
-    "prompt": "Which Vietnamese singer is famous for 'Lac Troi'?",
-    "choices": [
-      "Son Tung M-TP",
-      "Den Vau",
-      "Erik",
-      "Jack"
-    ]
-  },
-  {
-    "prompt": "Which British singer is famous for the song 'Hello' from the album '25'?",
-    "choices": [
-      "Adele",
-      "Dua Lipa",
-      "Ed Sheeran",
-      "Sam Smith"
-    ]
-  },
-  {
-    "prompt": "Which Korean song by PSY became a huge global viral hit?",
-    "choices": [
-      "Gangnam Style",
-      "Growl",
-      "Cheer Up",
-      "Kill This Love"
-    ]
-  },
-  {
-    "prompt": "Which US singer released 'Bad Guy'?",
-    "choices": [
-      "Billie Eilish",
-      "Ariana Grande",
-      "Selena Gomez",
-      "Halsey"
-    ]
-  },
-  {
-    "prompt": "Which leader declared Vietnam's independence in 1945?",
-    "choices": [
-      "Ho Chi Minh",
-      "Vo Nguyen Giap",
-      "Le Duan",
-      "Bao Dai"
-    ]
-  },
-  {
-    "prompt": "The Trung Sisters are famous for leading a rebellion against which country's rule?",
-    "choices": [
-      "China",
-      "France",
-      "Japan",
-      "The United States"
-    ]
-  },
-  {
-    "prompt": "In which year did the Vietnam War end with the fall of Saigon?",
-    "choices": [
-      "1975",
-      "1945",
-      "1990",
-      "1960"
-    ]
-  },
-  {
-    "prompt": "What is the capital of Vietnam today?",
-    "choices": [
-      "Hanoi",
-      "Hue",
-      "Da Nang",
-      "Can Tho"
-    ]
-  },
-  {
-    "prompt": "Ho Chi Minh City was formerly known by what name?",
-    "choices": [
-      "Saigon",
-      "Hanoi",
-      "Hue",
-      "Hoi An"
-    ]
-  },
-  {
-    "prompt": "Which country colonized Vietnam for about a century until the 1950s?",
-    "choices": [
-      "France",
-      "Britain",
-      "Spain",
-      "Portugal"
-    ]
-  },
-  {
-    "prompt": "Vietnam is located on which continent?",
-    "choices": [
-      "Asia",
-      "Europe",
-      "Africa",
-      "South America"
-    ]
-  },
-  {
-    "prompt": "Who was the last emperor of Vietnam?",
-    "choices": [
-      "Bao Dai",
-      "Gia Long",
-      "Minh Mang",
-      "Tu Duc"
-    ]
-  },
-  {
-    "prompt": "The legendary Hung Kings are considered the founders of which country?",
-    "choices": [
-      "Vietnam",
-      "China",
-      "Korea",
-      "Thailand"
-    ]
-  },
-  {
-    "prompt": "Which general is celebrated for defeating the Mongol invasions of Vietnam?",
-    "choices": [
-      "Tran Hung Dao",
-      "Ho Chi Minh",
-      "Gia Long",
-      "Le Duan"
-    ]
-  },
-  {
-    "prompt": "Which famous noodle soup comes from Vietnam?",
-    "choices": [
-      "Pho",
-      "Ramen",
-      "Pad Thai",
-      "Laksa"
-    ]
-  },
-  {
-    "prompt": "Sushi is a dish that comes from which country?",
-    "choices": [
-      "Japan",
-      "Korea",
-      "China",
-      "Thailand"
-    ]
-  },
-  {
-    "prompt": "Kimchi is a well-known dish from which country?",
-    "choices": [
-      "Korea",
-      "Japan",
-      "Vietnam",
-      "India"
-    ]
-  },
-  {
-    "prompt": "What grain is a staple food across most of Asia?",
-    "choices": [
-      "Rice",
-      "Wheat",
-      "Corn",
-      "Oats"
-    ]
-  },
-  {
-    "prompt": "Which utensils are traditionally used to eat in many Asian countries?",
-    "choices": [
-      "Chopsticks",
-      "Forks only",
-      "Spoons only",
-      "Hands only"
-    ]
-  },
-  {
-    "prompt": "Banh mi is a sandwich from which country?",
-    "choices": [
-      "Vietnam",
-      "Japan",
-      "Korea",
-      "China"
-    ]
-  },
-  {
-    "prompt": "Which of these is a Japanese noodle dish served in hot broth?",
-    "choices": [
-      "Ramen",
-      "Bibimbap",
-      "Biryani",
-      "Pho"
-    ]
-  },
-  {
-    "prompt": "Which sauce is commonly used in Chinese and Japanese cooking?",
-    "choices": [
-      "Soy sauce",
-      "Maple syrup",
-      "Ketchup",
-      "Mustard"
-    ]
-  },
-  {
-    "prompt": "Curry is a dish strongly associated with which country?",
-    "choices": [
-      "India",
-      "Japan",
-      "Vietnam",
-      "Korea"
-    ]
-  },
-  {
-    "prompt": "Green tea is a popular drink that originated in which region?",
-    "choices": [
-      "East Asia",
-      "Northern Europe",
-      "South America",
-      "Australia"
+      "A sweet soup or pudding with beans, jelly, and coconut milk",
+      "A savory grilled skewer",
+      "A fried spring roll",
+      "A rice noodle salad"
     ]
   }
 ]
