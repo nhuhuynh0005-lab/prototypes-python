@@ -11,9 +11,10 @@ QUESTION_JSON_PATH = os.path.join(DIRNAME, "questions.json")
 with open(QUESTION_JSON_PATH, 'r') as file:
     raw_questions = json.load(file)
 
-# === DO NOT TOUCH ===
 
-# first_question = raw_questions[0]
+
+# === DO NOT TOUCH ===
+question_answer_list = random.sample(raw_questions, 10)
 def format_question(question) -> str:
     choice_with_label = []
     for answer in question["choices"]:
@@ -23,8 +24,8 @@ def format_question(question) -> str:
     random.shuffle(choice_with_label)
 
     a_list = []
-    for ind, choice in enumerate(choice_with_label, start = 1 ):
-        a_list.append(f"{ind}. {choice}")
+    for ind, choice in enumerate(choice_with_label, start = 65 ):
+        a_list.append(f"{chr(ind)}. {choice}")
         choices_str = "\n".join(a_list)
         answer_list = "".join(question['prompt']) + "\n" + choices_str
     return (
@@ -34,28 +35,27 @@ def format_question(question) -> str:
         )
     
 i = 0
-question_random = random.sample(raw_questions,10)
-for quiz in question_random:
+for quiz in question_answer_list:
     ans_list,cor_answer,choice_with_label1 = format_question(quiz)
     print(ans_list)
      
     try:
         while True:
             input_keyword = input(">")
-            if input_keyword.isdigit() and input_keyword < "5":
-                input_keyword_int = int(input_keyword)
-                answer = choice_with_label1[input_keyword_int-1]
+            if input_keyword.isalpha() and input_keyword in ["A","B","C","D"]  :
+                input_keyword_int =ord(input_keyword)
+                answer = choice_with_label1[input_keyword_int-65]
                 if answer  ==  cor_answer :
                     print("✔ correct")
                     i += 1
                 else :
-                    print(f"✖ incorect.The correct answer is {choice_with_label1.index(cor_answer) + 1}")
+                    print(f"✖ incorect.The correct answer is {chr(choice_with_label1.index(cor_answer) + 65)}")
                 break
             else:
                 if input_keyword == "":
                     continue
                 else:
-                    print(f"✖ incorect.The correct answer is {choice_with_label1.index(cor_answer) + 1}")
+                    print(f"✖ incorect.The correct answer is {chr(choice_with_label1.index(cor_answer) + 65)}")
                     break
     except KeyboardInterrupt:
     
