@@ -6,3 +6,4 @@ set -e
 sed -i '/^ZSH_THEME/c\ZSH_THEME="robbyrussell"' ~/.zshrc
 
 task setup-git
+uv tool install pytest
